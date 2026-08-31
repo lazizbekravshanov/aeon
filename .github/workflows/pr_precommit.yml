@@ -78,3 +78,5 @@ jobs:
 
       - name: Codespell
         uses: codespell-project/actions-codespell@v2
+        with:
+          ignore_words_file: .github/utilities/codespell_ignore_words.txt

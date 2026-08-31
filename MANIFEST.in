@@ -13,6 +13,7 @@ recursive-exclude .binder *
 recursive-exclude .github *
 recursive-exclude docs *
 recursive-exclude examples *
+recursive-exclude league-tables *
 exclude .all-contributorsrc
 exclude .codecov.yml
 exclude .gitattributes
