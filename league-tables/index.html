@@ -147,7 +147,8 @@
     border:1px solid rgba(255,255,255,.08);
     overflow:hidden;
   }
-  .crest img{width:100%;height:100%;object-fit:contain;display:block}
+  .crest{position:relative}
+  .crest img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;display:block;background:var(--surface-2)}
   .club .nm{font-size:13.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .club .tag{
     flex:none;font-size:9.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
@@ -428,8 +429,10 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":
 /* ================= rendering ================= */
 function crest(short, logo){
   const [bg, fg] = clubStyle(short);
+  // Monogram is always rendered; a crest image layers over it and removes
+  // itself on load failure, so the chip never ends up blank.
   const img = logo ? `<img src="${esc(logo)}" alt="" loading="lazy" onerror="this.remove()">` : "";
-  return `<span class="crest" style="background:${bg};color:${fg||"#fff"}">${img}${img?"":esc(monogram(short))}</span>`;
+  return `<span class="crest" style="background:${bg};color:${fg||"#fff"}">${esc(monogram(short))}${img}</span>`;
 }
 
 function gdCell(gd){
