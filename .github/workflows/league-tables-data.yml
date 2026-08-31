@@ -1,0 +1,47 @@
+name: Update league tables data
+
+on:
+  schedule:
+    - cron: "23 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - claude/sports-league-tables-site-hayb40
+    paths:
+      - league-tables/scripts/**
+      - .github/workflows/league-tables-data.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: league-tables-data-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh standings data
+        run: node league-tables/scripts/update-standings.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add league-tables/data.json
+          if git diff --cached --quiet; then
+            echo "No standings changes."
+          else
+            git commit -m "chore: refresh league standings data [skip ci]"
+            git push
+          fi
