@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T04:42:46.225Z",
+ "generated": "2026-09-02T11:26:26.292Z",
  "season": "2026/27",
  "comps": {
   "epl": {
@@ -19,7 +19,7 @@
      "ga": 2,
      "gd": 4,
      "pts": 6,
-     "form": "W",
+     "form": "WW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
     },
     {
@@ -34,7 +34,7 @@
      "ga": 0,
      "gd": 4,
      "pts": 6,
-     "form": "W",
+     "form": "WW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
     },
     {
@@ -49,7 +49,7 @@
      "ga": 0,
      "gd": 3,
      "pts": 6,
-     "form": "W",
+     "form": "WW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png"
     },
     {
@@ -64,7 +64,7 @@
      "ga": 5,
      "gd": 2,
      "pts": 6,
-     "form": "W",
+     "form": "WW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png"
     },
     {
@@ -79,7 +79,7 @@
      "ga": 1,
      "gd": 3,
      "pts": 4,
-     "form": "W",
+     "form": "WD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
     },
     {
@@ -94,7 +94,7 @@
      "ga": 2,
      "gd": 2,
      "pts": 4,
-     "form": "D",
+     "form": "DW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     },
     {
@@ -109,7 +109,7 @@
      "ga": 1,
      "gd": 2,
      "pts": 4,
-     "form": "W",
+     "form": "WD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png"
     },
     {
@@ -124,7 +124,7 @@
      "ga": 1,
      "gd": 1,
      "pts": 4,
-     "form": "W",
+     "form": "WD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png"
     },
     {
@@ -139,7 +139,7 @@
      "ga": 4,
      "gd": 3,
      "pts": 3,
-     "form": "W",
+     "form": "WL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png"
     },
     {
@@ -154,7 +154,7 @@
      "ga": 4,
      "gd": 1,
      "pts": 3,
-     "form": "L",
+     "form": "LW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png"
     },
     {
@@ -169,7 +169,7 @@
      "ga": 2,
      "gd": 0,
      "pts": 3,
-     "form": "L",
+     "form": "LW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png"
     },
     {
@@ -184,7 +184,7 @@
      "ga": 6,
      "gd": -2,
      "pts": 3,
-     "form": "W",
+     "form": "WL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png"
     },
     {
@@ -199,7 +199,7 @@
      "ga": 4,
      "gd": 0,
      "pts": 2,
-     "form": "D",
+     "form": "DD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png"
     },
     {
@@ -214,7 +214,7 @@
      "ga": 3,
      "gd": -1,
      "pts": 1,
-     "form": "L",
+     "form": "LD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
     },
     {
@@ -229,7 +229,7 @@
      "ga": 3,
      "gd": -1,
      "pts": 1,
-     "form": "L",
+     "form": "LD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png"
     },
     {
@@ -244,7 +244,7 @@
      "ga": 4,
      "gd": -2,
      "pts": 0,
-     "form": "L",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png"
     },
     {
@@ -259,7 +259,7 @@
      "ga": 4,
      "gd": -4,
      "pts": 0,
-     "form": "L",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png"
     },
     {
@@ -274,7 +274,7 @@
      "ga": 6,
      "gd": -5,
      "pts": 0,
-     "form": "L",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png"
     },
     {
@@ -289,7 +289,7 @@
      "ga": 5,
      "gd": -5,
      "pts": 0,
-     "form": "L",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     },
     {
@@ -304,7 +304,7 @@
      "ga": 5,
      "gd": -5,
      "pts": 0,
-     "form": "L",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png"
     }
    ]
@@ -326,7 +326,7 @@
      "ga": 2,
      "gd": 10,
      "pts": 9,
-     "form": "W",
+     "form": "WWW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png"
     },
     {
@@ -341,7 +341,7 @@
      "ga": 2,
      "gd": 8,
      "pts": 9,
-     "form": "W",
+     "form": "WWW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png"
     },
     {
@@ -356,7 +356,7 @@
      "ga": 3,
      "gd": 4,
      "pts": 7,
-     "form": "WD",
+     "form": "WDW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
     },
     {
@@ -386,7 +386,7 @@
      "ga": 1,
      "gd": 2,
      "pts": 7,
-     "form": "",
+     "form": "WW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png"
     },
     {
@@ -401,7 +401,7 @@
      "ga": 5,
      "gd": 1,
      "pts": 6,
-     "form": "WW",
+     "form": "WWL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
     },
     {
@@ -416,7 +416,7 @@
      "ga": 5,
      "gd": -1,
      "pts": 6,
-     "form": "W",
+     "form": "WWL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
     },
     {
@@ -446,7 +446,7 @@
      "ga": 5,
      "gd": 0,
      "pts": 4,
-     "form": "L",
+     "form": "LW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png"
     },
     {
@@ -491,7 +491,7 @@
      "ga": 5,
      "gd": -2,
      "pts": 3,
-     "form": "L",
+     "form": "LLW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
     },
     {
@@ -521,7 +521,7 @@
      "ga": 4,
      "gd": -3,
      "pts": 3,
-     "form": "LW",
+     "form": "LWL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
     },
     {
@@ -536,7 +536,7 @@
      "ga": 5,
      "gd": -1,
      "pts": 2,
-     "form": "DD",
+     "form": "DDL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
     },
     {
@@ -551,7 +551,7 @@
      "ga": 4,
      "gd": -3,
      "pts": 1,
-     "form": "",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
     },
     {
@@ -566,7 +566,7 @@
      "ga": 4,
      "gd": -3,
      "pts": 1,
-     "form": "",
+     "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
     },
     {
@@ -596,7 +596,7 @@
      "ga": 9,
      "gd": -6,
      "pts": 1,
-     "form": "DL",
+     "form": "DLL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png"
     },
     {
@@ -611,7 +611,7 @@
      "ga": 7,
      "gd": -6,
      "pts": 1,
-     "form": "LD",
+     "form": "LDL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png"
     }
    ]
