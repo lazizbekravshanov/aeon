@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T16:30:39.730Z",
+ "generated": "2026-09-03T21:07:02.201Z",
  "season": "2026/27",
  "comps": {
   "epl": {
@@ -312,7 +312,7 @@
   "liga": {
    "name": "La Liga",
    "source": "espn",
-   "matchday": 3,
+   "matchday": 4,
    "rows": [
     {
      "pos": 1,
@@ -466,6 +466,21 @@
     },
     {
      "pos": 11,
+     "team": "Real Sociedad",
+     "short": "Real Sociedad",
+     "p": 4,
+     "w": 1,
+     "d": 1,
+     "l": 2,
+     "gf": 3,
+     "ga": 6,
+     "gd": -3,
+     "pts": 4,
+     "form": "",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
+    },
+    {
+     "pos": 12,
      "team": "Espanyol",
      "short": "Espanyol",
      "p": 3,
@@ -480,7 +495,7 @@
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
     },
     {
-     "pos": 12,
+     "pos": 13,
      "team": "Athletic Club",
      "short": "Athletic",
      "p": 3,
@@ -493,21 +508,6 @@
      "pts": 3,
      "form": "LLW",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png"
-    },
-    {
-     "pos": 13,
-     "team": "Real Sociedad",
-     "short": "Real Sociedad",
-     "p": 3,
-     "w": 1,
-     "d": 0,
-     "l": 2,
-     "gf": 3,
-     "ga": 6,
-     "gd": -3,
-     "pts": 3,
-     "form": "",
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png"
     },
     {
      "pos": 14,
@@ -541,6 +541,21 @@
     },
     {
      "pos": 16,
+     "team": "Celta Vigo",
+     "short": "Celta Vigo",
+     "p": 4,
+     "w": 0,
+     "d": 2,
+     "l": 2,
+     "gf": 1,
+     "ga": 4,
+     "gd": -3,
+     "pts": 2,
+     "form": "LL",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+    },
+    {
+     "pos": 17,
      "team": "Valencia",
      "short": "Valencia",
      "p": 3,
@@ -553,21 +568,6 @@
      "pts": 1,
      "form": "LL",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png"
-    },
-    {
-     "pos": 17,
-     "team": "Celta Vigo",
-     "short": "Celta Vigo",
-     "p": 3,
-     "w": 0,
-     "d": 1,
-     "l": 2,
-     "gf": 1,
-     "ga": 4,
-     "gd": -3,
-     "pts": 1,
-     "form": "LL",
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
     },
     {
      "pos": 18,
