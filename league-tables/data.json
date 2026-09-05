@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T10:42:22.632Z",
+ "generated": "2026-09-05T15:19:04.058Z",
  "season": "2026/27",
  "comps": {
   "epl": {
@@ -84,6 +84,21 @@
     },
     {
      "pos": 6,
+     "team": "Newcastle United",
+     "short": "Newcastle",
+     "p": 3,
+     "w": 1,
+     "d": 2,
+     "l": 0,
+     "gf": 6,
+     "ga": 4,
+     "gd": 2,
+     "pts": 5,
+     "form": "DW",
+     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
+    },
+    {
+     "pos": 7,
      "team": "Brentford",
      "short": "Brentford",
      "p": 2,
@@ -96,21 +111,6 @@
      "pts": 4,
      "form": "WD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png"
-    },
-    {
-     "pos": 7,
-     "team": "Newcastle United",
-     "short": "Newcastle",
-     "p": 2,
-     "w": 1,
-     "d": 1,
-     "l": 0,
-     "gf": 4,
-     "ga": 2,
-     "gd": 2,
-     "pts": 4,
-     "form": "DW",
-     "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png"
     },
     {
      "pos": 8,
@@ -206,14 +206,14 @@
      "pos": 14,
      "team": "AFC Bournemouth",
      "short": "Bournemouth",
-     "p": 2,
+     "p": 3,
      "w": 0,
-     "d": 1,
+     "d": 2,
      "l": 1,
-     "gf": 2,
-     "ga": 3,
+     "gf": 4,
+     "ga": 5,
      "gd": -1,
-     "pts": 1,
+     "pts": 2,
      "form": "LD",
      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png"
     },
