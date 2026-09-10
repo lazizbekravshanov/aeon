@@ -209,69 +209,101 @@ function parseESPN(json) {
 
 // Fixture tuples are [matchday, date, time, opponent, home?1:0, goalsFor, goalsAgainst];
 // goals are null until a match is played. Baking them into data.json keeps the
-// page free of runtime fetches.
+// page free of runtime fetches. Clubs are keyed by their raw feed name here and
+// renamed to the table's short names by alignFixtures().
 function fixturesFromOpenfootball(data) {
   const out = {};
   for (const m of data.matches ?? []) {
     if (!m.team1 || !m.team2) continue;
     const md = parseInt(String(m.round ?? "").replace(/\D+/g, ""), 10) || null;
     const ft = Array.isArray(m?.score?.ft) ? m.score.ft : null;
-    const home = shortName(m.team1);
-    const away = shortName(m.team2);
-    (out[home] ??= []).push([md, m.date ?? null, m.time ?? null, away, 1, ft ? ft[0] : null, ft ? ft[1] : null]);
-    (out[away] ??= []).push([md, m.date ?? null, m.time ?? null, home, 0, ft ? ft[1] : null, ft ? ft[0] : null]);
-  }
-  for (const list of Object.values(out)) {
-    list.sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+    (out[m.team1] ??= []).push([md, m.date ?? null, m.time ?? null, m.team2, 1, ft ? ft[0] : null, ft ? ft[1] : null]);
+    (out[m.team2] ??= []).push([md, m.date ?? null, m.time ?? null, m.team1, 0, ft ? ft[1] : null, ft ? ft[0] : null]);
   }
   return out;
 }
 
-// ESPN's per-team schedule feed — the only fixture source that covers the
-// Champions League, which openfootball does not carry.
-async function fixturesFromESPN(slug, rows, year) {
+// ESPN's scoreboard, walked a month at a time. The per-team schedule feed only
+// returns matches already played, so it cannot carry a full season; this one
+// lists scheduled fixtures too, and is the only source that covers the
+// Champions League, which openfootball does not publish.
+async function fixturesFromESPN(slug, year) {
+  const out = {};
+  const seen = new Set();
   const goals = (side) => {
     const raw = side?.score;
     const value = raw && typeof raw === "object" ? raw.value ?? raw.displayValue : raw;
     const n = Number(value);
     return Number.isFinite(n) ? n : null;
   };
-  const out = {};
-  for (const row of rows) {
-    if (!row.id) continue;
+  for (let i = 0; i < 11; i++) {
+    const first = new Date(Date.UTC(year, 7 + i, 1));
+    const y = first.getUTCFullYear();
+    const mo = String(first.getUTCMonth() + 1).padStart(2, "0");
+    const last = new Date(Date.UTC(y, first.getUTCMonth() + 1, 0)).getUTCDate();
+    const range = `${y}${mo}01-${y}${mo}${last}`;
+    let feed;
     try {
-      const feed = await getJSON(
-        `https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/teams/${row.id}/schedule?season=${year}`
+      feed = await getJSON(
+        `https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/scoreboard?dates=${range}&limit=500`
       );
-      const list = [];
-      for (const event of feed.events ?? []) {
-        const game = event.competitions?.[0];
-        if (!game) continue;
-        // Team schedules can include cup ties; keep this competition only.
-        const eventSlug = event.league?.slug ?? game.league?.slug ?? null;
-        if (eventSlug && eventSlug !== slug) continue;
-        const sides = game.competitors ?? [];
-        const me = sides.find((c) => String(c.team?.id) === String(row.id));
-        const them = sides.find((c) => String(c.team?.id) !== String(row.id));
-        if (!me || !them) continue;
-        const played = game.status?.type?.completed === true;
-        const iso = String(game.date ?? event.date ?? "");
-        list.push([
-          null,
-          iso.slice(0, 10) || null,
-          iso.length > 11 ? iso.slice(11, 16) + "Z" : null,
-          shortName(them.team?.displayName ?? them.team?.shortDisplayName ?? "?"),
-          me.homeAway === "home" ? 1 : 0,
-          played ? goals(me) : null,
-          played ? goals(them) : null,
-        ]);
-      }
-      list.sort((a, b) => String(a[1]).localeCompare(String(b[1])));
-      list.forEach((tuple, i) => { tuple[0] = i + 1; });
-      if (list.length) out[row.short] = list;
     } catch (e) {
-      console.error(`[fixtures] ${row.short}: ${e.message}`);
+      console.error(`[fixtures] ${slug} ${range}: ${e.message}`);
+      continue;
     }
+    for (const event of feed.events ?? []) {
+      if (event.id && seen.has(event.id)) continue;
+      if (event.id) seen.add(event.id);
+      const game = event.competitions?.[0];
+      if (!game) continue;
+      const home = (game.competitors ?? []).find((c) => c.homeAway === "home");
+      const away = (game.competitors ?? []).find((c) => c.homeAway === "away");
+      if (!home?.team || !away?.team) continue;
+      const played = game.status?.type?.completed === true;
+      const iso = String(game.date ?? event.date ?? "");
+      const date = iso.slice(0, 10) || null;
+      const time = iso.length > 11 ? iso.slice(11, 16) + "Z" : null;
+      const hn = home.team.displayName ?? home.team.name ?? "?";
+      const an = away.team.displayName ?? away.team.name ?? "?";
+      const hg = played ? goals(home) : null;
+      const ag = played ? goals(away) : null;
+      (out[hn] ??= []).push([null, date, time, an, 1, hg, ag]);
+      (out[an] ??= []).push([null, date, time, hn, 0, ag, hg]);
+    }
+  }
+  return out;
+}
+
+// Feeds name clubs differently ("Nottingham Forest FC" vs ESPN's "Nottm Forest"),
+// so re-key fixtures onto exactly the names the table shows.
+function alignFixtures(fixtures, rows) {
+  const byKey = new Map(rows.map((r) => [nameKey(r.team), r.short]));
+  const byTokens = rows.map((r) => [new Set(nameKey(r.team).split(" ").filter(Boolean)), r.short]);
+  const cache = new Map();
+  const rename = (name) => {
+    if (cache.has(name)) return cache.get(name);
+    let short = byKey.get(nameKey(name));
+    if (!short) {
+      // Feeds pad names ("Rayo Vallecano de Madrid"), so fall back to the club
+      // sharing the most name tokens — needing two, and an outright winner.
+      const mine = nameKey(name).split(" ").filter(Boolean);
+      let best = null, most = 1, tied = false;
+      for (const [tokens, candidate] of byTokens) {
+        const hits = mine.reduce((n, t) => n + (tokens.has(t) ? 1 : 0), 0);
+        if (hits > most) { best = candidate; most = hits; tied = false; }
+        else if (hits === most && hits > 1) tied = true;
+      }
+      short = best && !tied ? best : shortName(name);
+    }
+    cache.set(name, short);
+    return short;
+  };
+  const out = {};
+  for (const [club, list] of Object.entries(fixtures)) {
+    const sorted = [...list].sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+    const tuples = sorted.map((t) => [t[0], t[1], t[2], rename(t[3]), t[4], t[5], t[6]]);
+    tuples.forEach((t, i) => { if (t[0] == null) t[0] = i + 1; });
+    out[rename(club)] = tuples;
   }
   return out;
 }
@@ -315,10 +347,11 @@ async function build() {
     }
 
     if (result && result.rows.some((r) => (r.p ?? 0) > 0)) {
-      let fixtures = ofData ? fixturesFromOpenfootball(ofData) : {};
-      if (!Object.keys(fixtures).length) {
-        fixtures = await fixturesFromESPN(cfg.espn, result.rows, startYear);
-      }
+      let raw = ofData ? fixturesFromOpenfootball(ofData) : {};
+      if (!Object.keys(raw).length) raw = await fixturesFromESPN(cfg.espn, startYear);
+      const fixtures = alignFixtures(raw, result.rows);
+      const noFixtures = result.rows.filter((r) => !fixtures[r.short]).map((r) => r.short);
+      if (noFixtures.length) console.error(`[${key}] no fixtures for: ${noFixtures.join(", ")}`);
       comps[key] = {
         name: cfg.name,
         source,
