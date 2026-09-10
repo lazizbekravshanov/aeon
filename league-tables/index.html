@@ -206,32 +206,52 @@
     background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:7px 14px;
   }
   .back:hover{color:var(--ink)}
-  .team-head{display:flex;align-items:center;gap:14px;margin-bottom:6px}
-  .team-head .crest{width:44px;height:44px;font-size:14px}
-  .team-head h2{font-size:clamp(20px,5vw,28px);font-weight:800;letter-spacing:-.02em}
-  .tl-sec{margin:18px 0 8px;font-size:10.5px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
-  .tl{position:relative;padding-left:18px}
-  .tl::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--line);border-radius:2px}
-  .match{
-    position:relative;display:grid;grid-template-columns:52px minmax(0,1fr) auto;
-    align-items:center;gap:10px;padding:9px 12px;margin-bottom:6px;
-    background:var(--surface);border:1px solid var(--line);border-radius:12px;
+  .team-hero{display:flex;align-items:center;gap:14px;margin-bottom:14px}
+  .team-hero .crest{width:46px;height:46px;font-size:14px;flex:none}
+  .team-hero h2{font-size:clamp(20px,5vw,28px);font-weight:800;letter-spacing:-.025em;line-height:1.1}
+  .team-hero .sub{margin-top:4px;font-size:12px;color:var(--dim)}
+  .team-hero .sub b{color:var(--ink);font-weight:700}
+
+  .rec{display:grid;grid-template-columns:repeat(6,1fr);gap:7px;margin-bottom:12px}
+  .rec .cell{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:9px 6px;text-align:center}
+  .rec .k{font-size:9.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+  .rec .v{margin-top:3px;font-size:15px;font-weight:800}
+  .splits{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:6px;align-items:center}
+  .splits .chip .form{display:inline-flex;gap:3px;margin-left:6px;vertical-align:-1px}
+
+  .fx-group{margin-bottom:12px}
+  .fx-month{font-size:10.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--dim);margin:0 2px 6px}
+  .fx-list{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+  .fx{
+    display:grid;grid-template-columns:34px 78px 22px minmax(0,1fr) 60px;
+    align-items:center;gap:9px;padding:0 13px;height:44px;
+    border-bottom:1px solid var(--line);border-left:3px solid transparent;
   }
-  .match::before{
-    content:"";position:absolute;left:-17px;top:50%;transform:translateY(-50%);
-    width:8px;height:8px;border-radius:50%;background:var(--faint);border:2px solid var(--bg);
+  .fx:last-child{border-bottom:none}
+  .fx.W{border-left-color:var(--win)}
+  .fx.D{border-left-color:var(--draw)}
+  .fx.L{border-left-color:var(--loss)}
+  .fx.next{background:color-mix(in srgb, var(--accent) 9%, transparent);border-left-color:var(--accent)}
+  .fx .md{font-size:10px;font-weight:700;color:var(--faint);letter-spacing:.03em}
+  .fx .dt{font-size:11.5px;font-weight:600;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fx .dt .wd{color:var(--faint)}
+  .fx .ha{
+    font-size:9.5px;font-weight:700;color:var(--faint);text-align:center;
+    border:1px solid var(--line);border-radius:5px;padding:1.5px 0;
   }
-  .match.W::before{background:var(--win)}
-  .match.D::before{background:var(--draw)}
-  .match.L::before{background:var(--loss)}
-  .match .when{font-size:11px;color:var(--faint);font-weight:600;line-height:1.35}
-  .match .opp{display:flex;align-items:center;gap:8px;min-width:0}
-  .match .opp .nm{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .match .ha{font-size:9.5px;font-weight:700;color:var(--faint);border:1px solid var(--line);border-radius:5px;padding:1.5px 5px;flex:none}
-  .match .score{font-size:13.5px;font-weight:800;white-space:nowrap}
-  .match .score.W{color:var(--win)}
-  .match .score.L{color:var(--loss)}
-  .match .score.up{color:var(--dim);font-weight:600;font-size:12px}
+  .fx .opp{display:flex;align-items:center;gap:8px;min-width:0}
+  .fx .opp .crest{width:22px;height:22px;font-size:8px}
+  .fx .opp .nm{font-size:13px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fx .tag{
+    flex:none;font-size:8.5px;font-weight:800;letter-spacing:.06em;
+    color:var(--accent-ink);background:var(--accent);border-radius:4px;padding:1.5px 5px;
+  }
+  .fx .res{text-align:right;font-size:13px;font-weight:800;white-space:nowrap}
+  .fx .res.W{color:var(--win)}
+  .fx .res.L{color:var(--loss)}
+  .fx .res.D{color:var(--dim)}
+  .fx .res.kick{font-weight:600;font-size:11.5px;color:var(--faint)}
 
   footer{
     margin-top:28px;border-top:1px solid var(--line);
@@ -249,6 +269,11 @@
     .stat{display:flex;align-items:baseline;gap:10px;padding:10px 14px}
     .stat .sub{display:none}
     .stat .v{margin-top:0}
+    .rec{grid-template-columns:repeat(3,1fr)}
+    .fx{grid-template-columns:56px 22px minmax(0,1fr) 54px;gap:8px;padding:0 11px}
+    .fx .dt .wd{display:none}
+    .fx .md{display:none}
+    .fx .opp .nm{font-size:12.5px}
   }
 </style>
 </head>
@@ -459,9 +484,9 @@ function liveTable(comp){
   // On mobile the grid collapses: P column doubles as the only played-count.
   for (const r of comp.rows){
     const z = cfg.zones(r.pos);
-    const clickable = league !== "ucl";
-    h += `<div class="trow ${z?"z-"+z:""} ${r.pos===1?"leader":""}" role="row"${
-      clickable ? ` data-team="${esc(r.team ?? r.short)}" data-short="${esc(r.short)}" data-lg="${league}" data-mode="live" data-logo="${esc(r.logo ?? "")}"` : ""}>
+    h += `<div class="trow ${z?"z-"+z:""} ${r.pos===1?"leader":""}" role="row"`
+      + ` data-short="${esc(r.short)}" data-lg="${league}" data-mode="live" data-logo="${esc(r.logo ?? "")}">`
+      + `
       <span class="pos" role="cell">${r.pos}</span>
       <span class="club" role="cell">${crest(r.short, r.logo)}<span class="nm">${esc(r.short)}</span></span>
       <span class="num hide-m" role="cell">${r.p ?? "–"}</span>
@@ -508,7 +533,10 @@ function wrappedTable(key){
       <span>#</span><span>Club</span><span class="pts-h">Pts</span>
     </div>`;
   for (const [pos, short, pts, z, tag] of w.rows){
-    h += `<div class="trow ${z?"z-"+z:""} ${pos===1&&key!=="ucl"?"leader":""}" role="row" style="grid-template-columns:26px minmax(0,1fr) 60px;height:42px">
+    const clickable = key === "epl" || key === "liga";
+    h += `<div class="trow ${z?"z-"+z:""} ${pos===1&&key!=="ucl"?"leader":""}" role="row"`
+      + (clickable ? ` data-short="${esc(short)}" data-lg="${key}" data-mode="wrapped"` : "")
+      + ` style="grid-template-columns:26px minmax(0,1fr) 60px;height:42px">
       <span class="pos" role="cell">${pos}</span>
       <span class="club" role="cell">${crest(short)}<span class="nm">${esc(short)}</span>
         ${tag?`<span class="tag ${tag==="champions"||tag==="won it all"?"gold":""}">${esc(tag)}</span>`:""}</span>
@@ -526,129 +554,276 @@ function wrappedTable(key){
 }
 
 /* ================= team page ================= */
-const MATCH_CACHE = new Map(); // `${league}:${slug}` -> matches array
+const MATCH_CACHE = new Map();
 const OF_FILES = { epl:"en.1.json", liga:"es.1.json" };
-let teamView = null; // {league, mode, team, short, logo}
+let teamView = null; // {league, mode, short, logo}
 
-async function getMatches(lg, seasonDir){
+/* Club naming mirrors scripts/update-standings.mjs, so openfootball's full
+   club names resolve to the same short names the tables show. */
+const SHORT_NAMES = {
+  "afc bournemouth": "Bournemouth",
+  "brighton & hove albion": "Brighton",
+  "brighton and hove albion": "Brighton",
+  "coventry city": "Coventry",
+  "crystal palace": "Crystal Palace",
+  "hull city": "Hull City",
+  "ipswich town": "Ipswich",
+  "leeds united": "Leeds",
+  "manchester city": "Man City",
+  "manchester united": "Man United",
+  "newcastle united": "Newcastle",
+  "nottingham forest": "Nott'm Forest",
+  "tottenham hotspur": "Tottenham",
+  "west ham united": "West Ham",
+  "wolverhampton wanderers": "Wolves",
+  "ca osasuna": "Osasuna",
+  "club atletico de madrid": "Atlético Madrid",
+  "atletico madrid": "Atlético Madrid",
+  "deportivo alaves": "Alavés",
+  "fc barcelona": "Barcelona",
+  "levante ud": "Levante",
+  "malaga cf": "Málaga",
+  "rc celta de vigo": "Celta Vigo",
+  "celta vigo": "Celta Vigo",
+  "rc deportivo la coruna": "Deportivo",
+  "deportivo la coruna": "Deportivo",
+  "rcd espanyol de barcelona": "Espanyol",
+  "rayo vallecano de madrid": "Rayo Vallecano",
+  "real betis balompie": "Real Betis",
+  "real madrid cf": "Real Madrid",
+  "real racing club de santander": "Racing Santander",
+  "racing santander": "Racing Santander",
+  "real sociedad de futbol": "Real Sociedad",
+  "athletic club": "Athletic Club",
+  "rcd mallorca": "Mallorca",
+  "paris saint-germain": "PSG",
+  "bayern munich": "Bayern Munich",
+  "fc bayern munchen": "Bayern Munich",
+  "borussia dortmund": "Dortmund",
+  "bayer leverkusen": "Leverkusen",
+  "internazionale": "Inter",
+  "inter milan": "Inter",
+  "sporting cp": "Sporting CP",
+  "sl benfica": "Benfica",
+  "fc porto": "Porto",
+  "as monaco": "Monaco",
+  "olympique marseille": "Marseille",
+  "club brugge": "Club Brugge",
+  "union saint-gilloise": "Union SG",
+  "psv eindhoven": "PSV",
+  "afc ajax": "Ajax",
+  "eintracht frankfurt": "Frankfurt",
+  "slavia prague": "Slavia Prague",
+  "bodo/glimt": "Bodø/Glimt",
+};
+const DROP = new Set(["fc","afc","cf","cd","ca","ud","rc","rcd","sc","ac","as","sl","club","de","the","balompie"]);
+const flat = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[.,']/g,"").trim();
+function clubShort(name){
+  const key = flat(name);
+  if (SHORT_NAMES[key]) return SHORT_NAMES[key];
+  const cleaned = key.split(/\s+/).filter(t => !DROP.has(t)).join(" ");
+  if (SHORT_NAMES[cleaned]) return SHORT_NAMES[cleaned];
+  const kept = name.replace(/[.,]/g,"").split(/\s+/).filter(t => !DROP.has(flat(t)));
+  return kept.join(" ") || name;
+}
+
+/* Fixture tuples baked into data.json:
+   [matchday, date, time, opponent, home?1:0, goalsFor, goalsAgainst] */
+function bakedFixtures(lg, short){
+  const raw = LIVE?.comps?.[lg]?.fixtures?.[short];
+  if (!Array.isArray(raw) || !raw.length) return null;
+  return raw.map(([md, date, time, opp, home, gf, ga]) => ({
+    md, date, time, opp, home: !!home,
+    gf: gf ?? null, ga: ga ?? null,
+    done: gf != null && ga != null,
+  }));
+}
+
+/* Fallback for seasons the snapshot doesn't carry (e.g. the 25/26 archive). */
+async function openfootballFixtures(lg, seasonDir, short){
+  if (!OF_FILES[lg]) return null;
   const key = lg + ":" + seasonDir;
-  if (MATCH_CACHE.has(key)) return MATCH_CACHE.get(key);
-  const of = await fetchJSON(`${OF_BASE}/${seasonDir}/${OF_FILES[lg]}`);
-  MATCH_CACHE.set(key, of.matches ?? []);
-  return of.matches ?? [];
-}
-
-function fmtDate(d, t){
-  try{
-    const dt = new Date(d + "T" + (t || "12:00"));
-    const day = dt.toLocaleDateString("en-GB", {weekday:"short"});
-    const dm = dt.toLocaleDateString("en-GB", {day:"numeric", month:"short"});
-    return `${day}<br>${dm}`;
-  }catch{ return esc(d); }
-}
-
-function matchItem(m, meKey, shortOf){
-  const home = normKey(m.team1) === meKey;
-  const opp = home ? m.team2 : m.team1;
-  const ft = Array.isArray(m?.score?.ft) ? m.score.ft : null;
-  let outcome = "", scoreHTML;
-  if (ft){
-    const [gh, ga] = ft;
-    const mine = home ? gh : ga, theirs = home ? ga : gh;
-    outcome = mine > theirs ? "W" : mine < theirs ? "L" : "D";
-    scoreHTML = `<span class="score ${outcome}">${gh}–${ga}</span>`;
-  } else {
-    scoreHTML = `<span class="score up">${esc(m.time ?? "TBC")}</span>`;
+  let matches = MATCH_CACHE.get(key);
+  if (!matches){
+    const of = await fetchJSON(`${OF_BASE}/${seasonDir}/${OF_FILES[lg]}`);
+    matches = of.matches ?? [];
+    MATCH_CACHE.set(key, matches);
   }
-  const oppShort = shortOf(opp);
-  return `<div class="match ${outcome}">
-    <span class="when">${fmtDate(m.date, m.time)}</span>
-    <span class="opp">${crest(oppShort)}<span class="nm">${esc(oppShort)}</span><span class="ha">${home ? "H" : "A"}</span></span>
-    ${scoreHTML}
+  const out = [];
+  for (const m of matches){
+    const h = clubShort(m.team1 ?? ""), a = clubShort(m.team2 ?? "");
+    const home = h === short;
+    if (!home && a !== short) continue;
+    const ft = Array.isArray(m?.score?.ft) ? m.score.ft : null;
+    out.push({
+      md: parseInt(String(m.round ?? "").replace(/\D+/g,""), 10) || null,
+      date: m.date ?? null, time: m.time ?? null,
+      opp: home ? a : h, home,
+      gf: ft ? (home ? ft[0] : ft[1]) : null,
+      ga: ft ? (home ? ft[1] : ft[0]) : null,
+      done: !!ft,
+    });
+  }
+  out.sort((x, y) => String(x.date).localeCompare(String(y.date)));
+  return out.length ? out : null;
+}
+
+/* ESPN kickoff times carry a Z; openfootball's are already league-local. */
+function kickoff(f){
+  if (!f.date) return null;
+  const utc = f.time && /Z$/.test(f.time);
+  const dt = new Date(`${f.date}T${utc ? f.time : (f.time || "12:00")}`);
+  return isNaN(dt) ? null : { dt, utc };
+}
+function fxDate(f){
+  const k = kickoff(f);
+  if (!k) return f.date ? esc(f.date) : "TBC";
+  const wd = k.dt.toLocaleDateString("en-GB", {weekday:"short"});
+  const dm = k.dt.toLocaleDateString("en-GB", {day:"numeric", month:"short"});
+  return `<span class="wd">${esc(wd)} </span>${esc(dm)}`;
+}
+function fxTime(f){
+  if (!f.time) return "TBC";
+  const k = kickoff(f);
+  if (k && k.utc) return k.dt.toLocaleTimeString("en-GB", {hour:"2-digit", minute:"2-digit"});
+  return f.time;
+}
+function outcomeOf(f){
+  if (!f.done) return "";
+  return f.gf > f.ga ? "W" : f.gf < f.ga ? "L" : "D";
+}
+function monthOf(f){
+  const k = kickoff(f);
+  return k ? k.dt.toLocaleDateString("en-GB", {month:"long", year:"numeric"}) : "Date to be confirmed";
+}
+
+function fxRow(f, isNext){
+  const o = outcomeOf(f);
+  const res = f.done
+    ? `<span class="res ${o}">${f.gf}–${f.ga}</span>`
+    : `<span class="res kick">${esc(fxTime(f))}</span>`;
+  return `<div class="fx ${o} ${isNext ? "next" : ""}" role="row">
+    <span class="md">${f.md ? "MD" + f.md : ""}</span>
+    <span class="dt">${fxDate(f)}</span>
+    <span class="ha" title="${f.home ? "Home" : "Away"}">${f.home ? "H" : "A"}</span>
+    <span class="opp">${crest(f.opp)}<span class="nm">${esc(f.opp)}</span>${isNext ? `<span class="tag">NEXT</span>` : ""}</span>
+    ${res}
   </div>`;
 }
 
-async function renderTeam(){
-  const {league: lg, mode: md, team, short, logo} = teamView;
-  const cfg = COMP[lg];
-  $("title").textContent = cfg.title;
-  const content = $("content");
-  const meta = $("meta");
-
-  const comp = md === "live" ? LIVE?.comps?.[lg] : null;
-  const row = comp?.rows?.find(r => r.team === team);
-  meta.innerHTML = "";
-  let head = `<button class="back" id="back">← ${esc(cfg.title)} table</button>
-    <div class="team-head">${crest(short, logo)}<h2>${esc(short)}</h2></div>
-    <div class="meta" style="margin-bottom:4px">`
-    + (row ? `<span class="chip">Position <b>${row.pos}</b></span><span class="chip"><b>${row.pts}</b> pts</span>` : "")
-    + `<span class="chip">${md === "live" ? esc(LIVE?.season ?? "") + " season" : "2025/26 season"}</span></div>`;
-
-  content.innerHTML = head + `<div class="empty"><div class="big">Loading matches…</div></div>`;
-  document.getElementById("back").onclick = () => { teamView = null; location.hash = ""; render(); };
-
-  if (!OF_FILES[lg]){
-    content.innerHTML = head + `<div class="empty"><div class="big">Match timelines aren't available for the Champions League yet</div>
-      <p>They'll light up once the ${esc(LIVE?.season ?? "")} league phase gets underway.</p></div>`;
-    document.getElementById("back").onclick = () => { teamView = null; location.hash = ""; render(); };
-    return;
-  }
-
-  const seasonDir = md === "live" ? seasonSlug() : "2025-26";
-  let matches;
-  try {
-    matches = await getMatches(lg, seasonDir);
-  } catch {
-    content.innerHTML = head + `<div class="empty"><div class="big">Couldn't load the match list</div>
-      <p>Check your connection and try again.</p></div>`;
-    document.getElementById("back").onclick = () => { teamView = null; location.hash = ""; render(); };
-    return;
-  }
-
-  const meKey = normKey(team);
-  const mine = matches.filter(m => normKey(m.team1) === meKey || normKey(m.team2) === meKey)
-    .sort((a,b) => String(a.date).localeCompare(String(b.date)));
-  const played = mine.filter(m => Array.isArray(m?.score?.ft)).reverse();
-  const upcoming = mine.filter(m => !Array.isArray(m?.score?.ft));
-
-  // Short names for opponents: reuse table rows when we can.
-  const shortMap = new Map();
-  for (const r of (comp?.rows ?? [])) shortMap.set(normKey(r.team), r.short);
-  const wrappedRows = WRAPPED[lg]?.rows ?? [];
-  const shortOf = (name) => shortMap.get(normKey(name))
-    ?? wrappedRows.find(w => normKey(w[1]) === normKey(name))?.[1]
-    ?? name.replace(/\b(FC|AFC|CF|CD|CA|UD|RC|RCD|SC)\b/g,"").replace(/\s+/g," ").trim();
-
-  let h = head;
-  if (upcoming.length){
-    h += `<div class="tl-sec">Upcoming · next ${Math.min(5, upcoming.length)}</div><div class="tl">`
-      + upcoming.slice(0,5).map(m => matchItem(m, meKey, shortOf)).join("") + `</div>`;
-  }
-  if (played.length){
-    h += `<div class="tl-sec">Results · newest first</div><div class="tl">`
-      + played.map(m => matchItem(m, meKey, shortOf)).join("") + `</div>`;
-  }
-  if (!upcoming.length && !played.length){
-    h += `<div class="empty"><div class="big">No matches found for this club</div></div>`;
-  }
-  content.innerHTML = h;
-  document.getElementById("back").onclick = () => { teamView = null; location.hash = ""; render(); };
+function recordOf(list){
+  const w = list.filter(f => f.gf > f.ga).length;
+  const d = list.filter(f => f.gf === f.ga).length;
+  return `${w}W ${d}D ${list.length - w - d}L`;
 }
 
-const slug = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+function backToTable(){
+  teamView = null;
+  history.replaceState(null, "", location.pathname + location.search);
+  render();
+}
 
-function openTeam(lg, md, team, short, logo){
-  teamView = {league: lg, mode: md, team, short, logo};
+async function renderTeam(){
+  const { league: lg, mode: md, short, logo } = teamView;
+  const cfg = COMP[lg];
+  $("title").textContent = cfg.title;
+  $("meta").innerHTML = "";
+  const content = $("content");
+
+  const comp = md === "live" ? LIVE?.comps?.[lg] : null;
+  const row = comp?.rows?.find(r => r.short === short);
+  const seasonLabel = md === "live" ? (LIVE?.season ?? "") : "2025/26";
+  const bits = [
+    row ? `Position <b>${row.pos}</b>` : "",
+    row ? `<b>${row.pts}</b> pts` : "",
+    `${esc(seasonLabel)} · ${esc(cfg.title)}`,
+  ].filter(Boolean);
+
+  const head = `<button class="back" id="back">← ${esc(cfg.title)} table</button>
+    <div class="team-hero">${crest(short, logo)}
+      <div><h2>${esc(short)}</h2><div class="sub">${bits.join(" · ")}</div></div>
+    </div>`;
+  const show = (html) => {
+    content.innerHTML = head + html;
+    $("back").onclick = backToTable;
+  };
+
+  show(`<div class="empty"><div class="big">Loading fixtures…</div></div>`);
+
+  let fx = md === "live" ? bakedFixtures(lg, short) : null;
+  if (!fx){
+    try { fx = await openfootballFixtures(lg, md === "live" ? seasonSlug() : "2025-26", short); }
+    catch { fx = null; }
+  }
+  if (teamView?.short !== short || teamView?.league !== lg) return; // superseded
+
+  if (!fx){
+    show(`<div class="empty">
+        <div class="big">No fixture list for ${esc(short)} yet</div>
+        <p>${lg === "ucl"
+          ? "Champions League fixtures appear here once the schedule reaches the data feed."
+          : "The fixture feed couldn't be reached. Check your connection and try again."}</p>
+      </div>`);
+    return;
+  }
+
+  const played = fx.filter(f => f.done);
+  const gf = played.reduce((n, f) => n + f.gf, 0);
+  const ga = played.reduce((n, f) => n + f.ga, 0);
+  const gd = gf - ga;
+  const w = played.filter(f => f.gf > f.ga).length;
+  const d = played.filter(f => f.gf === f.ga).length;
+  const cell = (k, v) => `<div class="cell"><div class="k">${k}</div><div class="v">${v}</div></div>`;
+  const stats = `<div class="rec">
+      ${cell("Played", played.length)}${cell("Won", w)}${cell("Drawn", d)}
+      ${cell("Lost", played.length - w - d)}${cell("Goals", `${gf}:${ga}`)}
+      ${cell("GD", (gd > 0 ? "+" : "") + gd)}
+    </div>`;
+
+  const formHTML = played.length
+    ? `<span class="chip">Form ${formCell(played.slice(-5).map(outcomeOf).join(""))}</span>` : "";
+  const splits = `<div class="splits">
+      <span class="chip">Home <b>${recordOf(played.filter(f => f.home))}</b></span>
+      <span class="chip">Away <b>${recordOf(played.filter(f => !f.home))}</b></span>
+      ${formHTML}
+      <span class="chip"><b>${fx.length - played.length}</b> to play</span>
+    </div>`;
+
+  const nextIdx = fx.findIndex(f => !f.done);
+  const groups = [];
+  fx.forEach((f, i) => {
+    const label = monthOf(f);
+    if (!groups.length || groups[groups.length - 1].label !== label) groups.push({ label, items: [] });
+    groups[groups.length - 1].items.push({ f, i });
+  });
+  const list = groups.map(g =>
+    `<div class="fx-group">
+       <div class="fx-month">${esc(g.label)}</div>
+       <div class="fx-list" role="table" aria-label="${esc(g.label)} fixtures">
+         ${g.items.map(({ f, i }) => fxRow(f, i === nextIdx)).join("")}
+       </div>
+     </div>`).join("");
+
+  show(stats + splits + `<div style="height:6px"></div>` + list
+    + `<p class="note">Full ${esc(seasonLabel)} schedule — ${fx.length} matches. Results carry the score; upcoming fixtures show kick-off.</p>`);
+}
+
+const slug = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase()
+  .replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+
+function openTeam(lg, md, short, logo){
+  teamView = { league: lg, mode: md, short, logo };
   league = lg;
   history.replaceState(null, "", "#" + lg + "/" + slug(short));
+  window.scrollTo(0, 0);
   renderTeam();
 }
 
 function wireRows(){
-  document.querySelectorAll(".trow[data-team]").forEach(el => {
+  document.querySelectorAll(".trow[data-short]").forEach(el => {
     el.classList.add("clickable");
     el.addEventListener("click", () => {
-      openTeam(el.dataset.lg, el.dataset.mode, el.dataset.team, el.dataset.short, el.dataset.logo || null);
+      openTeam(el.dataset.lg, el.dataset.mode, el.dataset.short, el.dataset.logo || null);
     });
   });
 }
@@ -675,6 +850,7 @@ function render(){
   if (mode === "wrapped"){
     meta.innerHTML = `<span class="chip"><b>2025/26</b> · final</span><span class="chip">${cfg.region}</span>`;
     content.innerHTML = wrappedTable(league);
+    wireRows();
     return;
   }
 
@@ -690,6 +866,7 @@ function render(){
         <div class="big">The ${esc(LIVE.season)} league phase hasn't kicked off yet</div>
         <p>It starts in mid-September. This page updates itself — the table will appear here as soon as the first round is played. Meanwhile, last season's final standings:</p>
       </div>` + wrappedTable(league);
+    wireRows();
     return;
   }
   meta.innerHTML = `<span class="chip"><b>${esc(LIVE.season)}</b> · live</span>`
@@ -697,7 +874,7 @@ function render(){
     + `<span class="chip">${cfg.region}</span>`
     + `<span class="chip acc">auto-updated</span>`;
   content.innerHTML = statStrip(comp) + liveTable(comp)
-    + `<p class="note">Tap a club for its match timeline. Zones shown as the standard allocation. Source: ${comp.source === "espn" ? "ESPN public feed" : "openfootball open data (table computed from results)"} · refreshed ${timeAgo(LIVE.generated)}.</p>`;
+    + `<p class="note">Tap any club for its full season fixture list. Zones shown as the standard allocation. Source: ${comp.source === "espn" ? "ESPN public feed" : "openfootball open data (table computed from results)"} · refreshed ${timeAgo(LIVE.generated)}.</p>`;
   wireRows();
 }
 
@@ -728,7 +905,7 @@ async function load(){
   const m = location.hash.match(/^#(epl|liga|ucl)\/([a-z0-9-]+)$/);
   if (m && LIVE){
     const row = LIVE.comps?.[m[1]]?.rows?.find(r => slug(r.short) === m[2]);
-    if (row && m[1] !== "ucl"){ league = m[1]; teamView = {league:m[1], mode:"live", team:row.team, short:row.short, logo:row.logo}; }
+    if (row){ league = m[1]; teamView = {league:m[1], mode:"live", short:row.short, logo:row.logo}; }
   }
   render();
   refreshInBrowser();
@@ -811,8 +988,8 @@ async function refreshInBrowser(){
 for (const key of ["epl","liga","ucl"]){
   $("tab-"+key).addEventListener("click", ()=>{ league = key; teamView = null; history.replaceState(null,"",location.pathname); render(); });
 }
-$("mode-live").addEventListener("click", ()=>{ mode="live"; teamView = null; render(); });
-$("mode-wrapped").addEventListener("click", ()=>{ mode="wrapped"; teamView = null; render(); });
+$("mode-live").addEventListener("click", ()=>{ mode="live"; backToTable(); });
+$("mode-wrapped").addEventListener("click", ()=>{ mode="wrapped"; backToTable(); });
 window.matchMedia("(max-width:520px)").addEventListener?.("change", render);
 
 render();

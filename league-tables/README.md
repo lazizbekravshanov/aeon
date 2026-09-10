@@ -11,7 +11,10 @@ Dark, dense, sports-app style UI. Vanilla HTML/CSS/JS — no build step.
    current standings — ESPN's public feed first (ranks, GF/GA, crest URLs),
    falling back to [openfootball](https://github.com/openfootball/football.json)
    open data (tables computed from match results) — and commits `data.json`
-   when it changed.
+   when it changed. The same run bakes every club's **full season fixture
+   list** into `data.json`: from openfootball for the domestic leagues (which
+   carry real matchday numbers), and from ESPN's per-team schedule feed for the
+   Champions League, which openfootball does not cover.
 2. **Runtime fetch**: the page loads the newest `data.json` straight from
    raw.githubusercontent.com at view time, so visitors see fresh data without a
    redeploy.
@@ -24,7 +27,7 @@ The season rolls over automatically each August — nothing to bump.
 ## Files
 
 - `index.html` — the whole site
-- `data.json` — latest standings snapshot (bot-committed)
+- `data.json` — latest standings + fixtures snapshot (bot-committed)
 - `scripts/update-standings.mjs` — the updater (Node 18+, zero dependencies)
 - `vercel.json` — static deployment config
 
@@ -34,6 +37,10 @@ Any static host. For Vercel: `cd league-tables && vercel deploy --prod`.
 
 ## Notes
 
+- Clicking any club opens its full season schedule: every match in date order,
+  grouped by month, with results, home/away, and kick-off times for what's left.
+  Fixture tuples are `[matchday, date, time, opponent, home, goalsFor,
+  goalsAgainst]`; a trailing `Z` on the time marks a UTC kick-off.
 - European qualification zones are rendered as the standard allocation; cup
   winners and coefficient spots can shift the real allocation.
 - 2025/26 final standings were compiled from public season reports (Yahoo
