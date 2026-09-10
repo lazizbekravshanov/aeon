@@ -187,6 +187,7 @@ function parseESPN(json) {
     const ga = stat(e, "pointsAgainst");
     return {
       pos: stat(e, "rank"),
+      id: e.team?.id ?? null,
       team: e.team?.displayName ?? e.team?.name ?? "?",
       short: shortName(e.team?.shortDisplayName ?? e.team?.displayName ?? "?"),
       p: stat(e, "gamesPlayed"),
@@ -206,6 +207,75 @@ function parseESPN(json) {
   return { matchday, rows };
 }
 
+// Fixture tuples are [matchday, date, time, opponent, home?1:0, goalsFor, goalsAgainst];
+// goals are null until a match is played. Baking them into data.json keeps the
+// page free of runtime fetches.
+function fixturesFromOpenfootball(data) {
+  const out = {};
+  for (const m of data.matches ?? []) {
+    if (!m.team1 || !m.team2) continue;
+    const md = parseInt(String(m.round ?? "").replace(/\D+/g, ""), 10) || null;
+    const ft = Array.isArray(m?.score?.ft) ? m.score.ft : null;
+    const home = shortName(m.team1);
+    const away = shortName(m.team2);
+    (out[home] ??= []).push([md, m.date ?? null, m.time ?? null, away, 1, ft ? ft[0] : null, ft ? ft[1] : null]);
+    (out[away] ??= []).push([md, m.date ?? null, m.time ?? null, home, 0, ft ? ft[1] : null, ft ? ft[0] : null]);
+  }
+  for (const list of Object.values(out)) {
+    list.sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+  }
+  return out;
+}
+
+// ESPN's per-team schedule feed — the only fixture source that covers the
+// Champions League, which openfootball does not carry.
+async function fixturesFromESPN(slug, rows, year) {
+  const goals = (side) => {
+    const raw = side?.score;
+    const value = raw && typeof raw === "object" ? raw.value ?? raw.displayValue : raw;
+    const n = Number(value);
+    return Number.isFinite(n) ? n : null;
+  };
+  const out = {};
+  for (const row of rows) {
+    if (!row.id) continue;
+    try {
+      const feed = await getJSON(
+        `https://site.api.espn.com/apis/site/v2/sports/soccer/${slug}/teams/${row.id}/schedule?season=${year}`
+      );
+      const list = [];
+      for (const event of feed.events ?? []) {
+        const game = event.competitions?.[0];
+        if (!game) continue;
+        // Team schedules can include cup ties; keep this competition only.
+        const eventSlug = event.league?.slug ?? game.league?.slug ?? null;
+        if (eventSlug && eventSlug !== slug) continue;
+        const sides = game.competitors ?? [];
+        const me = sides.find((c) => String(c.team?.id) === String(row.id));
+        const them = sides.find((c) => String(c.team?.id) !== String(row.id));
+        if (!me || !them) continue;
+        const played = game.status?.type?.completed === true;
+        const iso = String(game.date ?? event.date ?? "");
+        list.push([
+          null,
+          iso.slice(0, 10) || null,
+          iso.length > 11 ? iso.slice(11, 16) + "Z" : null,
+          shortName(them.team?.displayName ?? them.team?.shortDisplayName ?? "?"),
+          me.homeAway === "home" ? 1 : 0,
+          played ? goals(me) : null,
+          played ? goals(them) : null,
+        ]);
+      }
+      list.sort((a, b) => String(a[1]).localeCompare(String(b[1])));
+      list.forEach((tuple, i) => { tuple[0] = i + 1; });
+      if (list.length) out[row.short] = list;
+    } catch (e) {
+      console.error(`[fixtures] ${row.short}: ${e.message}`);
+    }
+  }
+  return out;
+}
+
 async function build() {
   const comps = {};
   for (const [key, cfg] of Object.entries(COMPS)) {
@@ -223,12 +293,13 @@ async function build() {
     }
 
     let ofTable = null;
+    let ofData = null;
     if (cfg.of) {
       try {
-        const of = await getJSON(
+        ofData = await getJSON(
           `https://raw.githubusercontent.com/openfootball/football.json/master/${cfg.of}`
         );
-        ofTable = computeFromOpenfootball(of);
+        ofTable = computeFromOpenfootball(ofData);
       } catch (e) {
         console.error(`[${key}] openfootball failed: ${e.message}`);
       }
@@ -244,12 +315,18 @@ async function build() {
     }
 
     if (result && result.rows.some((r) => (r.p ?? 0) > 0)) {
+      let fixtures = ofData ? fixturesFromOpenfootball(ofData) : {};
+      if (!Object.keys(fixtures).length) {
+        fixtures = await fixturesFromESPN(cfg.espn, result.rows, startYear);
+      }
       comps[key] = {
         name: cfg.name,
         source,
         matchday: result.matchday,
         rows: result.rows,
+        fixtures,
       };
+      console.error(`[${key}] fixtures for ${Object.keys(fixtures).length} clubs`);
     } else {
       comps[key] = { name: cfg.name, notStarted: true };
     }
