@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T22:56:15.907Z",
+ "generated": "2026-09-10T22:59:24.833Z",
  "season": "2026/27",
  "comps": {
   "epl": {
@@ -388,7 +388,7 @@
       7,
       "2026-10-18",
       "16:30",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -415,7 +415,7 @@
       10,
       "2026-11-07",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -451,7 +451,7 @@
       14,
       "2026-12-05",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -478,7 +478,7 @@
       17,
       "2026-12-26",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -514,7 +514,7 @@
       21,
       "2027-01-16",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -577,7 +577,7 @@
       28,
       "2027-03-03",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -631,7 +631,7 @@
       34,
       "2027-05-01",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -649,7 +649,7 @@
       36,
       "2027-05-15",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -687,7 +687,7 @@
       2,
       "2026-08-29",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       0,
       1
@@ -714,7 +714,7 @@
       5,
       "2026-09-19",
       "17:30",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -732,7 +732,7 @@
       7,
       "2026-10-19",
       "20:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -768,7 +768,7 @@
       11,
       "2026-11-21",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -885,7 +885,7 @@
       24,
       "2027-02-06",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -957,7 +957,7 @@
       32,
       "2027-04-17",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -993,7 +993,7 @@
       36,
       "2027-05-15",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -1011,13 +1011,13 @@
       38,
       "2027-05-30",
       "16:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
      ]
     ],
-    "Hull City": [
+    "Hull": [
      [
       1,
       "2026-08-22",
@@ -1121,7 +1121,7 @@
       12,
       "2026-11-28",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -1130,7 +1130,7 @@
       13,
       "2026-12-02",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -1148,7 +1148,7 @@
       15,
       "2026-12-12",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -1193,7 +1193,7 @@
       20,
       "2027-01-06",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -1220,7 +1220,7 @@
       23,
       "2027-01-30",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -1310,7 +1310,7 @@
       33,
       "2027-04-24",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -1366,7 +1366,7 @@
       1,
       "2026-08-22",
       "12:30",
-      "Hull City",
+      "Hull",
       0,
       0,
       2
@@ -1411,7 +1411,7 @@
       6,
       "2026-10-10",
       "17:30",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -1492,7 +1492,7 @@
       15,
       "2026-12-12",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -1510,7 +1510,7 @@
       17,
       "2026-12-26",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -1591,7 +1591,7 @@
       26,
       "2027-02-20",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -1636,7 +1636,7 @@
       31,
       "2027-04-10",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -1654,7 +1654,7 @@
       33,
       "2027-04-24",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -1690,7 +1690,7 @@
       37,
       "2027-05-23",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -1737,7 +1737,7 @@
       4,
       "2026-09-12",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -1773,7 +1773,7 @@
       8,
       "2026-10-23",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -1782,7 +1782,7 @@
       9,
       "2026-10-31",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -1800,7 +1800,7 @@
       11,
       "2026-11-21",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -1899,7 +1899,7 @@
       22,
       "2027-01-23",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -1917,7 +1917,7 @@
       24,
       "2027-02-06",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -1971,7 +1971,7 @@
       30,
       "2027-03-20",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -2034,7 +2034,7 @@
       37,
       "2027-05-23",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -2153,7 +2153,7 @@
       12,
       "2026-11-28",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -2180,7 +2180,7 @@
       15,
       "2026-12-12",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -2189,7 +2189,7 @@
       16,
       "2026-12-19",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -2216,7 +2216,7 @@
       19,
       "2027-01-02",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -2252,7 +2252,7 @@
       23,
       "2027-01-30",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -2270,7 +2270,7 @@
       25,
       "2027-02-10",
       "20:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -2288,7 +2288,7 @@
       27,
       "2027-02-27",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -2342,7 +2342,7 @@
       33,
       "2027-04-24",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -2393,7 +2393,7 @@
       null
      ]
     ],
-    "Nott'm Forest": [
+    "Nottm Forest": [
      [
       1,
       "2026-08-22",
@@ -2416,7 +2416,7 @@
       3,
       "2026-09-05",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -2443,7 +2443,7 @@
       6,
       "2026-10-11",
       "14:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -2506,7 +2506,7 @@
       13,
       "2026-12-02",
       "20:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -2569,7 +2569,7 @@
       20,
       "2027-01-06",
       "20:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -2650,7 +2650,7 @@
       29,
       "2027-03-13",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -2704,7 +2704,7 @@
       35,
       "2027-05-08",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -2742,7 +2742,7 @@
       1,
       "2026-08-22",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       1,
       0
@@ -2778,7 +2778,7 @@
       5,
       "2026-09-20",
       "14:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -2823,7 +2823,7 @@
       10,
       "2026-11-07",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -2895,7 +2895,7 @@
       18,
       "2026-12-30",
       "20:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -2922,7 +2922,7 @@
       21,
       "2027-01-16",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -2985,7 +2985,7 @@
       28,
       "2027-03-03",
       "20:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -3012,7 +3012,7 @@
       31,
       "2027-04-10",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -3075,7 +3075,7 @@
       38,
       "2027-05-30",
       "16:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -3086,7 +3086,7 @@
       1,
       "2026-08-22",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       2,
       0
@@ -3113,7 +3113,7 @@
       4,
       "2026-09-12",
       "17:30",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -3131,7 +3131,7 @@
       6,
       "2026-10-11",
       "14:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -3221,7 +3221,7 @@
       16,
       "2026-12-19",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -3320,7 +3320,7 @@
       27,
       "2027-02-27",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -3347,7 +3347,7 @@
       30,
       "2027-03-20",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -3356,7 +3356,7 @@
       31,
       "2027-04-10",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -3392,7 +3392,7 @@
       35,
       "2027-05-08",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -3425,7 +3425,7 @@
       null
      ]
     ],
-    "Crystal Palace": [
+    "C Palace": [
      [
       1,
       "2026-08-22",
@@ -3475,7 +3475,7 @@
       6,
       "2026-10-11",
       "14:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -3502,7 +3502,7 @@
       9,
       "2026-10-31",
       "17:30",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -3529,7 +3529,7 @@
       12,
       "2026-11-28",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -3619,7 +3619,7 @@
       22,
       "2027-01-23",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -3628,7 +3628,7 @@
       23,
       "2027-01-30",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -3736,7 +3736,7 @@
       35,
       "2027-05-08",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -3774,7 +3774,7 @@
       1,
       "2026-08-22",
       "17:30",
-      "Tottenham",
+      "Spurs",
       1,
       3,
       0
@@ -3837,7 +3837,7 @@
       8,
       "2026-10-25",
       "14:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -3846,7 +3846,7 @@
       9,
       "2026-10-31",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -3936,7 +3936,7 @@
       19,
       "2027-01-02",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -3981,7 +3981,7 @@
       24,
       "2027-02-06",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -3990,7 +3990,7 @@
       25,
       "2027-02-10",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -4044,7 +4044,7 @@
       31,
       "2027-04-10",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -4098,7 +4098,7 @@
       37,
       "2027-05-23",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -4113,7 +4113,7 @@
       null
      ]
     ],
-    "Tottenham": [
+    "Spurs": [
      [
       1,
       "2026-08-22",
@@ -4136,7 +4136,7 @@
       3,
       "2026-09-05",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -4190,7 +4190,7 @@
       9,
       "2026-10-31",
       "17:30",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -4244,7 +4244,7 @@
       15,
       "2026-12-12",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -4307,7 +4307,7 @@
       22,
       "2027-01-23",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -4370,7 +4370,7 @@
       29,
       "2027-03-13",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -4406,7 +4406,7 @@
       33,
       "2027-04-24",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -4471,7 +4471,7 @@
       2,
       "2026-08-28",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       4,
       1
@@ -4543,7 +4543,7 @@
       10,
       "2026-11-07",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -4597,7 +4597,7 @@
       16,
       "2026-12-19",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -4624,7 +4624,7 @@
       19,
       "2027-01-02",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -4642,7 +4642,7 @@
       21,
       "2027-01-16",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -4678,7 +4678,7 @@
       25,
       "2027-02-10",
       "20:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -4696,7 +4696,7 @@
       27,
       "2027-02-27",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -4741,7 +4741,7 @@
       32,
       "2027-04-17",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -4896,7 +4896,7 @@
       11,
       "2026-11-21",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -4923,7 +4923,7 @@
       14,
       "2026-12-05",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -4950,7 +4950,7 @@
       17,
       "2026-12-26",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -4959,7 +4959,7 @@
       18,
       "2026-12-30",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -4995,7 +4995,7 @@
       22,
       "2027-01-23",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -5031,7 +5031,7 @@
       26,
       "2027-02-20",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -5049,7 +5049,7 @@
       28,
       "2027-03-03",
       "20:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -5103,7 +5103,7 @@
       34,
       "2027-05-01",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -5204,7 +5204,7 @@
       7,
       "2026-10-18",
       "14:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -5240,7 +5240,7 @@
       11,
       "2026-11-21",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -5267,7 +5267,7 @@
       14,
       "2026-12-05",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -5303,7 +5303,7 @@
       18,
       "2026-12-30",
       "20:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -5357,7 +5357,7 @@
       24,
       "2027-02-06",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -5375,7 +5375,7 @@
       26,
       "2027-02-20",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -5447,7 +5447,7 @@
       34,
       "2027-05-01",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -5465,7 +5465,7 @@
       36,
       "2027-05-15",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -5512,7 +5512,7 @@
       3,
       "2026-09-05",
       "17:30",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -5521,7 +5521,7 @@
       4,
       "2026-09-12",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -5530,7 +5530,7 @@
       5,
       "2026-09-19",
       "12:30",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -5611,7 +5611,7 @@
       14,
       "2026-12-05",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -5746,7 +5746,7 @@
       29,
       "2027-03-13",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -5755,7 +5755,7 @@
       30,
       "2027-03-20",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -5791,7 +5791,7 @@
       34,
       "2027-05-01",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -5827,7 +5827,7 @@
       38,
       "2027-05-30",
       "16:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -5847,7 +5847,7 @@
       2,
       "2026-08-29",
       "17:30",
-      "Tottenham",
+      "Spurs",
       0,
       2,
       0
@@ -5874,7 +5874,7 @@
       5,
       "2026-09-19",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -5901,7 +5901,7 @@
       8,
       "2026-10-25",
       "14:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -5991,7 +5991,7 @@
       18,
       "2026-12-30",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -6081,7 +6081,7 @@
       28,
       "2027-03-03",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -6117,7 +6117,7 @@
       32,
       "2027-04-17",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -6162,7 +6162,7 @@
       37,
       "2027-05-23",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -6171,7 +6171,7 @@
       38,
       "2027-05-30",
       "16:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -6191,7 +6191,7 @@
       2,
       "2026-08-29",
       "12:30",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       2,
       2
@@ -6263,7 +6263,7 @@
       10,
       "2026-11-07",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -6317,7 +6317,7 @@
       16,
       "2026-12-19",
       "15:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -6326,7 +6326,7 @@
       17,
       "2026-12-26",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -6362,7 +6362,7 @@
       21,
       "2027-01-16",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -6407,7 +6407,7 @@
       26,
       "2027-02-20",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -6416,7 +6416,7 @@
       27,
       "2027-02-27",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -6461,7 +6461,7 @@
       32,
       "2027-04-17",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -6544,7 +6544,7 @@
       3,
       "2026-09-05",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       2,
       3
@@ -6580,7 +6580,7 @@
       7,
       "2026-10-17",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -6634,7 +6634,7 @@
       13,
       "2026-12-02",
       "20:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -6688,7 +6688,7 @@
       19,
       "2027-01-02",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -6697,7 +6697,7 @@
       20,
       "2027-01-06",
       "20:00",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -6742,7 +6742,7 @@
       25,
       "2027-02-10",
       "20:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -6778,7 +6778,7 @@
       29,
       "2027-03-13",
       "15:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -6841,7 +6841,7 @@
       36,
       "2027-05-15",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -6897,7 +6897,7 @@
       4,
       "2026-09-12",
       "15:00",
-      "Hull City",
+      "Hull",
       1,
       null,
       null
@@ -6933,7 +6933,7 @@
       8,
       "2026-10-24",
       "17:30",
-      "Tottenham",
+      "Spurs",
       1,
       null,
       null
@@ -6969,7 +6969,7 @@
       12,
       "2026-11-28",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       0,
       null,
       null
@@ -6978,7 +6978,7 @@
       13,
       "2026-12-02",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       1,
       null,
       null
@@ -7041,7 +7041,7 @@
       20,
       "2027-01-06",
       "20:00",
-      "Crystal Palace",
+      "C Palace",
       0,
       null,
       null
@@ -7068,7 +7068,7 @@
       23,
       "2027-01-30",
       "15:00",
-      "Nott'm Forest",
+      "Nottm Forest",
       1,
       null,
       null
@@ -7131,7 +7131,7 @@
       30,
       "2027-03-20",
       "15:00",
-      "Hull City",
+      "Hull",
       0,
       null,
       null
@@ -7176,7 +7176,7 @@
       35,
       "2027-05-08",
       "15:00",
-      "Tottenham",
+      "Spurs",
       0,
       null,
       null
@@ -7552,7 +7552,7 @@
       2,
       "2026-08-20",
       "21:00",
-      "Rayo Vallecano",
+      "Rayo",
       0,
       1,
       1
@@ -7579,7 +7579,7 @@
       5,
       "2026-09-12",
       "14:00",
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -7597,7 +7597,7 @@
       7,
       "2026-09-19",
       "16:15",
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -7606,7 +7606,7 @@
       8,
       "2026-10-11",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -7696,7 +7696,7 @@
       18,
       "2027-01-03",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -7759,7 +7759,7 @@
       25,
       "2027-02-21",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -7777,7 +7777,7 @@
       27,
       "2027-03-07",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -7813,7 +7813,7 @@
       31,
       "2027-04-11",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -7822,7 +7822,7 @@
       32,
       "2027-04-18",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -7840,7 +7840,7 @@
       34,
       "2027-05-02",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -7896,7 +7896,7 @@
       2,
       "2026-08-23",
       "19:30",
-      "Racing Santander",
+      "Racing",
       1,
       1,
       0
@@ -7932,7 +7932,7 @@
       6,
       "2026-09-17",
       "19:00",
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -7959,7 +7959,7 @@
       9,
       "2026-10-18",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -7968,7 +7968,7 @@
       10,
       "2026-10-25",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -7995,7 +7995,7 @@
       13,
       "2026-11-22",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -8058,7 +8058,7 @@
       20,
       "2027-01-17",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -8094,7 +8094,7 @@
       24,
       "2027-02-14",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -8103,7 +8103,7 @@
       25,
       "2027-02-21",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -8139,7 +8139,7 @@
       29,
       "2027-03-21",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -8175,7 +8175,7 @@
       33,
       "2027-04-21",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -8231,7 +8231,7 @@
       1,
       "2026-08-15",
       "21:30",
-      "Rayo Vallecano",
+      "Rayo",
       1,
       2,
       1
@@ -8240,7 +8240,7 @@
       2,
       "2026-08-22",
       "17:00",
-      "Athletic Club",
+      "Athletic",
       0,
       3,
       1
@@ -8249,7 +8249,7 @@
       3,
       "2026-08-29",
       "21:30",
-      "Atlético Madrid",
+      "Atlético",
       1,
       1,
       3
@@ -8339,7 +8339,7 @@
       13,
       "2026-11-22",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -8375,7 +8375,7 @@
       17,
       "2026-12-20",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -8402,7 +8402,7 @@
       20,
       "2027-01-17",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -8420,7 +8420,7 @@
       22,
       "2027-01-31",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -8429,7 +8429,7 @@
       23,
       "2027-02-07",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -8510,7 +8510,7 @@
       32,
       "2027-04-18",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -8537,7 +8537,7 @@
       35,
       "2027-05-09",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -8570,7 +8570,7 @@
       null
      ]
     ],
-    "Rayo Vallecano": [
+    "Rayo": [
      [
       1,
       "2026-08-15",
@@ -8602,7 +8602,7 @@
       4,
       "2026-09-05",
       "18:30",
-      "Racing Santander",
+      "Racing",
       1,
       3,
       2
@@ -8638,7 +8638,7 @@
       8,
       "2026-10-11",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -8692,7 +8692,7 @@
       14,
       "2026-11-29",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -8728,7 +8728,7 @@
       18,
       "2027-01-03",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -8800,7 +8800,7 @@
       26,
       "2027-02-28",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -8890,7 +8890,7 @@
       36,
       "2027-05-16",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -8899,7 +8899,7 @@
       37,
       "2027-05-23",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -8908,13 +8908,13 @@
       38,
       "2027-05-30",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
      ]
     ],
-    "Racing Santander": [
+    "Racing": [
      [
       1,
       "2026-08-16",
@@ -8946,7 +8946,7 @@
       4,
       "2026-09-05",
       "18:30",
-      "Rayo Vallecano",
+      "Rayo",
       0,
       2,
       3
@@ -9054,7 +9054,7 @@
       16,
       "2026-12-13",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -9072,7 +9072,7 @@
       18,
       "2027-01-03",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -9081,7 +9081,7 @@
       19,
       "2027-01-10",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -9144,7 +9144,7 @@
       26,
       "2027-02-28",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -9162,7 +9162,7 @@
       28,
       "2027-03-14",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -9171,7 +9171,7 @@
       29,
       "2027-03-21",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -9180,7 +9180,7 @@
       30,
       "2027-04-04",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -9263,7 +9263,7 @@
       1,
       "2026-08-16",
       "17:00",
-      "Racing Santander",
+      "Racing",
       0,
       2,
       2
@@ -9272,7 +9272,7 @@
       2,
       "2026-08-23",
       "17:00",
-      "Atlético Madrid",
+      "Atlético",
       0,
       2,
       2
@@ -9299,7 +9299,7 @@
       5,
       "2026-09-14",
       "21:00",
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -9398,7 +9398,7 @@
       16,
       "2026-12-13",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -9425,7 +9425,7 @@
       19,
       "2027-01-10",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -9452,7 +9452,7 @@
       22,
       "2027-01-31",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -9488,7 +9488,7 @@
       26,
       "2027-02-28",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -9533,7 +9533,7 @@
       31,
       "2027-04-11",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -9551,7 +9551,7 @@
       33,
       "2027-04-21",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -9560,7 +9560,7 @@
       34,
       "2027-05-02",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -9652,7 +9652,7 @@
       6,
       "2026-09-15",
       "19:00",
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -9679,7 +9679,7 @@
       9,
       "2026-10-18",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -9688,7 +9688,7 @@
       10,
       "2026-10-25",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -9715,7 +9715,7 @@
       13,
       "2026-11-22",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -9769,7 +9769,7 @@
       19,
       "2027-01-10",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -9796,7 +9796,7 @@
       22,
       "2027-01-31",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -9805,7 +9805,7 @@
       23,
       "2027-02-07",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -9841,7 +9841,7 @@
       27,
       "2027-03-07",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -9859,7 +9859,7 @@
       29,
       "2027-03-21",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -9913,7 +9913,7 @@
       35,
       "2027-05-09",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -9969,7 +9969,7 @@
       3,
       "2026-08-29",
       "17:00",
-      "Real Betis",
+      "Betis",
       1,
       5,
       2
@@ -9996,7 +9996,7 @@
       6,
       "2026-09-16",
       "21:30",
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -10041,7 +10041,7 @@
       11,
       "2026-11-01",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -10068,7 +10068,7 @@
       14,
       "2026-11-29",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -10077,7 +10077,7 @@
       15,
       "2026-12-06",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -10131,7 +10131,7 @@
       21,
       "2027-01-24",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -10194,7 +10194,7 @@
       28,
       "2027-03-14",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -10212,7 +10212,7 @@
       30,
       "2027-04-04",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -10221,7 +10221,7 @@
       31,
       "2027-04-11",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -10275,7 +10275,7 @@
       37,
       "2027-05-23",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -10349,7 +10349,7 @@
       7,
       "2026-09-20",
       "18:30",
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -10376,7 +10376,7 @@
       10,
       "2026-10-25",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -10421,7 +10421,7 @@
       15,
       "2026-12-06",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -10430,7 +10430,7 @@
       16,
       "2026-12-13",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -10457,7 +10457,7 @@
       19,
       "2027-01-10",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -10466,7 +10466,7 @@
       20,
       "2027-01-17",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -10475,7 +10475,7 @@
       21,
       "2027-01-24",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -10583,7 +10583,7 @@
       33,
       "2027-04-21",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -10592,7 +10592,7 @@
       34,
       "2027-05-02",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -10601,7 +10601,7 @@
       35,
       "2027-05-09",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -10657,7 +10657,7 @@
       3,
       "2026-08-28",
       "19:00",
-      "Racing Santander",
+      "Racing",
       0,
       2,
       3
@@ -10675,7 +10675,7 @@
       5,
       "2026-09-12",
       "18:30",
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -10720,7 +10720,7 @@
       10,
       "2026-10-25",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -10738,7 +10738,7 @@
       12,
       "2026-11-08",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -10756,7 +10756,7 @@
       14,
       "2026-11-29",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -10819,7 +10819,7 @@
       21,
       "2027-01-24",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -10828,7 +10828,7 @@
       22,
       "2027-01-31",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -10855,7 +10855,7 @@
       25,
       "2027-02-21",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -10954,7 +10954,7 @@
       36,
       "2027-05-16",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -10972,13 +10972,13 @@
       38,
       "2027-05-30",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
      ]
     ],
-    "Atlético Madrid": [
+    "Atlético": [
      [
       1,
       "2026-08-19",
@@ -11010,7 +11010,7 @@
       4,
       "2026-09-05",
       "16:15",
-      "Athletic Club",
+      "Athletic",
       0,
       0,
       3
@@ -11109,7 +11109,7 @@
       15,
       "2026-12-06",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -11136,7 +11136,7 @@
       18,
       "2027-01-03",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -11145,7 +11145,7 @@
       19,
       "2027-01-10",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -11226,7 +11226,7 @@
       28,
       "2027-03-14",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -11298,7 +11298,7 @@
       36,
       "2027-05-16",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -11307,7 +11307,7 @@
       37,
       "2027-05-23",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -11316,7 +11316,7 @@
       38,
       "2027-05-30",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -11327,7 +11327,7 @@
       1,
       "2026-08-19",
       "21:00",
-      "Atlético Madrid",
+      "Atlético",
       0,
       0,
       2
@@ -11417,7 +11417,7 @@
       11,
       "2026-11-01",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -11426,7 +11426,7 @@
       12,
       "2026-11-08",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -11444,7 +11444,7 @@
       14,
       "2026-11-29",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -11471,7 +11471,7 @@
       17,
       "2026-12-20",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -11543,7 +11543,7 @@
       25,
       "2027-02-21",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -11552,7 +11552,7 @@
       26,
       "2027-02-28",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -11570,7 +11570,7 @@
       28,
       "2027-03-14",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -11615,7 +11615,7 @@
       33,
       "2027-04-21",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -11633,7 +11633,7 @@
       35,
       "2027-05-09",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -11666,7 +11666,7 @@
       null
      ]
     ],
-    "Real Betis": [
+    "Betis": [
      [
       2,
       "2026-08-21",
@@ -11788,7 +11788,7 @@
       14,
       "2026-11-29",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -11797,7 +11797,7 @@
       15,
       "2026-12-06",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -11806,7 +11806,7 @@
       16,
       "2026-12-13",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -11815,7 +11815,7 @@
       17,
       "2026-12-20",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -11923,7 +11923,7 @@
       29,
       "2027-03-21",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -11950,7 +11950,7 @@
       32,
       "2027-04-18",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -11995,7 +11995,7 @@
       37,
       "2027-05-23",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -12004,7 +12004,7 @@
       38,
       "2027-05-30",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -12015,7 +12015,7 @@
       2,
       "2026-08-21",
       "21:00",
-      "Real Betis",
+      "Betis",
       0,
       0,
       1
@@ -12060,7 +12060,7 @@
       5,
       "2026-09-13",
       "21:00",
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -12105,7 +12105,7 @@
       11,
       "2026-11-01",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -12114,7 +12114,7 @@
       12,
       "2026-11-08",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -12123,7 +12123,7 @@
       13,
       "2026-11-22",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -12186,7 +12186,7 @@
       20,
       "2027-01-17",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -12222,7 +12222,7 @@
       24,
       "2027-02-14",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -12285,7 +12285,7 @@
       31,
       "2027-04-11",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -12294,7 +12294,7 @@
       32,
       "2027-04-18",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -12312,7 +12312,7 @@
       34,
       "2027-05-02",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -12354,7 +12354,7 @@
       null
      ]
     ],
-    "Athletic Club": [
+    "Athletic": [
      [
       2,
       "2026-08-22",
@@ -12386,7 +12386,7 @@
       4,
       "2026-09-05",
       "16:15",
-      "Atlético Madrid",
+      "Atlético",
       1,
       3,
       0
@@ -12422,7 +12422,7 @@
       8,
       "2026-10-11",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -12503,7 +12503,7 @@
       17,
       "2026-12-20",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -12512,7 +12512,7 @@
       18,
       "2027-01-03",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -12620,7 +12620,7 @@
       30,
       "2027-04-04",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -12638,7 +12638,7 @@
       32,
       "2027-04-18",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -12683,7 +12683,7 @@
       37,
       "2027-05-23",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -12692,7 +12692,7 @@
       38,
       "2027-05-30",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -12712,7 +12712,7 @@
       1,
       "2026-08-25",
       "21:00",
-      "Real Betis",
+      "Betis",
       1,
       0,
       1
@@ -12766,7 +12766,7 @@
       8,
       "2026-10-11",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -12775,7 +12775,7 @@
       9,
       "2026-10-18",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -12811,7 +12811,7 @@
       13,
       "2026-11-22",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -12838,7 +12838,7 @@
       16,
       "2026-12-13",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -12901,7 +12901,7 @@
       23,
       "2027-02-07",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -12946,7 +12946,7 @@
       28,
       "2027-03-14",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -12991,7 +12991,7 @@
       33,
       "2027-04-21",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -13000,7 +13000,7 @@
       34,
       "2027-05-02",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -13009,7 +13009,7 @@
       35,
       "2027-05-09",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -13065,7 +13065,7 @@
       3,
       "2026-08-30",
       "21:30",
-      "Athletic Club",
+      "Athletic",
       1,
       0,
       2
@@ -13101,7 +13101,7 @@
       7,
       "2026-09-19",
       "18:30",
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -13128,7 +13128,7 @@
       10,
       "2026-10-25",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -13137,7 +13137,7 @@
       11,
       "2026-11-01",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -13191,7 +13191,7 @@
       17,
       "2026-12-20",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -13227,7 +13227,7 @@
       21,
       "2027-01-24",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -13254,7 +13254,7 @@
       24,
       "2027-02-14",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -13263,7 +13263,7 @@
       25,
       "2027-02-21",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -13281,7 +13281,7 @@
       27,
       "2027-03-07",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -13308,7 +13308,7 @@
       30,
       "2027-04-04",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -13418,7 +13418,7 @@
       4,
       "2026-09-04",
       "21:00",
-      "Real Betis",
+      "Betis",
       0,
       0,
       1
@@ -13427,7 +13427,7 @@
       5,
       "2026-09-12",
       "21:00",
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -13445,7 +13445,7 @@
       7,
       "2026-09-20",
       "16:15",
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -13481,7 +13481,7 @@
       11,
       "2026-11-01",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -13517,7 +13517,7 @@
       15,
       "2026-12-06",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -13571,7 +13571,7 @@
       21,
       "2027-01-24",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -13580,7 +13580,7 @@
       22,
       "2027-01-31",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -13598,7 +13598,7 @@
       24,
       "2027-02-14",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -13652,7 +13652,7 @@
       30,
       "2027-04-04",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -13706,7 +13706,7 @@
       36,
       "2027-05-16",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -13744,7 +13744,7 @@
       1,
       "2026-08-27",
       "21:00",
-      "Athletic Club",
+      "Athletic",
       1,
       2,
       0
@@ -13753,7 +13753,7 @@
       3,
       "2026-08-31",
       "21:30",
-      "Rayo Vallecano",
+      "Rayo",
       1,
       5,
       2
@@ -13780,7 +13780,7 @@
       6,
       "2026-09-16",
       "21:30",
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -13807,7 +13807,7 @@
       9,
       "2026-10-18",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -13834,7 +13834,7 @@
       12,
       "2026-11-08",
       null,
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -13933,7 +13933,7 @@
       23,
       "2027-02-07",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -13960,7 +13960,7 @@
       26,
       "2027-02-28",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -13969,7 +13969,7 @@
       27,
       "2027-03-07",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -13987,7 +13987,7 @@
       29,
       "2027-03-21",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -14005,7 +14005,7 @@
       31,
       "2027-04-11",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -14124,7 +14124,7 @@
       6,
       "2026-09-16",
       "19:00",
-      "Atlético Madrid",
+      "Atlético",
       0,
       null,
       null
@@ -14133,7 +14133,7 @@
       7,
       "2026-09-19",
       "14:00",
-      "Rayo Vallecano",
+      "Rayo",
       1,
       null,
       null
@@ -14142,7 +14142,7 @@
       8,
       "2026-10-11",
       null,
-      "Real Betis",
+      "Betis",
       0,
       null,
       null
@@ -14151,7 +14151,7 @@
       9,
       "2026-10-18",
       null,
-      "Racing Santander",
+      "Racing",
       1,
       null,
       null
@@ -14178,7 +14178,7 @@
       12,
       "2026-11-08",
       null,
-      "Athletic Club",
+      "Athletic",
       1,
       null,
       null
@@ -14250,7 +14250,7 @@
       20,
       "2027-01-17",
       null,
-      "Racing Santander",
+      "Racing",
       0,
       null,
       null
@@ -14277,7 +14277,7 @@
       23,
       "2027-02-07",
       null,
-      "Athletic Club",
+      "Athletic",
       0,
       null,
       null
@@ -14286,7 +14286,7 @@
       24,
       "2027-02-14",
       null,
-      "Atlético Madrid",
+      "Atlético",
       1,
       null,
       null
@@ -14313,7 +14313,7 @@
       27,
       "2027-03-07",
       null,
-      "Rayo Vallecano",
+      "Rayo",
       0,
       null,
       null
@@ -14394,7 +14394,7 @@
       36,
       "2027-05-16",
       null,
-      "Real Betis",
+      "Betis",
       1,
       null,
       null
@@ -15003,171 +15003,6 @@
     }
    ],
    "fixtures": {
-    "PSG": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Slovan Bratislava",
-      1,
-      6,
-      1
-     ]
-    ],
-    "Bayern": [
-     [
-      1,
-      "2026-09-10",
-      "19:00Z",
-      "Bodø/Glimt",
-      1,
-      5,
-      0
-     ]
-    ],
-    "Barcelona": [
-     [
-      1,
-      "2026-09-09",
-      "16:45Z",
-      "Feyenoord Rotterdam",
-      1,
-      5,
-      1
-     ]
-    ],
-    "Man United": [
-     [
-      1,
-      "2026-09-10",
-      "19:00Z",
-      "Sabah FK",
-      1,
-      4,
-      0
-     ]
-    ],
-    "Como": [
-     [
-      1,
-      "2026-09-10",
-      "19:00Z",
-      "RB Leipzig",
-      1,
-      4,
-      1
-     ]
-    ],
-    "Sporting": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Galatasaray",
-      1,
-      3,
-      1
-     ]
-    ],
-    "Stuttgart": [
-     [
-      1,
-      "2026-09-09",
-      "16:45Z",
-      "Viking FK",
-      1,
-      3,
-      1
-     ]
-    ],
-    "Man City": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Porto",
-      0,
-      2,
-      0
-     ]
-    ],
-    "Aston Villa": [
-     [
-      1,
-      "2026-09-08",
-      "16:45Z",
-      "Club Brugge",
-      0,
-      3,
-      2
-     ]
-    ],
-    "Lens": [
-     [
-      1,
-      "2026-09-10",
-      "19:00Z",
-      "Slavia Prague",
-      0,
-      3,
-      2
-     ]
-    ],
-    "Betis": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Lille",
-      0,
-      3,
-      2
-     ]
-    ],
-    "Dortmund": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Villarreal",
-      1,
-      3,
-      2
-     ]
-    ],
-    "Liverpool": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Atlético Madrid",
-      1,
-      2,
-      1
-     ]
-    ],
-    "Real Madrid": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Inter",
-      1,
-      2,
-      1
-     ]
-    ],
-    "Arsenal": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Napoli",
-      0,
-      1,
-      0
-     ]
-    ],
     "AEK Athens": [
      [
       1,
@@ -15177,116 +15012,69 @@
       1,
       1,
       0
-     ]
-    ],
-    "Roma": [
+     ],
      [
-      1,
-      "2026-09-10",
-      "16:45Z",
-      "Fenerbahce",
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Shakhtar",
       0,
-      1,
-      1
-     ]
-    ],
-    "Shakhtar": [
+      null,
+      null
+     ],
      [
-      1,
-      "2026-09-10",
-      "16:45Z",
-      "PSV",
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Man City",
       0,
-      1,
-      1
-     ]
-    ],
-    "Fenerbahce": [
+      null,
+      null
+     ],
      [
+      4,
+      "2026-11-04",
+      "17:45Z",
+      "Real Madrid",
       1,
-      "2026-09-10",
-      "16:45Z",
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Como",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Galatasaray",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
       "Roma",
       1,
-      1,
-      1
-     ]
-    ],
-    "PSV": [
+      null,
+      null
+     ],
      [
-      1,
-      "2026-09-10",
-      "16:45Z",
-      "Shakhtar Donetsk",
-      1,
-      1,
-      1
-     ]
-    ],
-    "Villarreal": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
+      8,
+      "2027-01-27",
+      "20:00Z",
       "Dortmund",
       0,
-      2,
-      3
-     ]
-    ],
-    "Club Brugge": [
-     [
-      1,
-      "2026-09-08",
-      "16:45Z",
-      "Aston Villa",
-      1,
-      2,
-      3
-     ]
-    ],
-    "Lille": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Real Betis",
-      1,
-      2,
-      3
-     ]
-    ],
-    "Slavia Prague": [
-     [
-      1,
-      "2026-09-10",
-      "19:00Z",
-      "Lens",
-      1,
-      2,
-      3
-     ]
-    ],
-    "Atlético": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Liverpool",
-      0,
-      1,
-      2
-     ]
-    ],
-    "Inter": [
-     [
-      1,
-      "2026-09-08",
-      "19:00Z",
-      "Real Madrid",
-      0,
-      1,
-      2
+      null,
+      null
      ]
     ],
     "LASK Linz": [
@@ -15298,39 +15086,365 @@
       0,
       0,
       1
-     ]
-    ],
-    "Napoli": [
+     ],
      [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Arsenal",
-      1,
-      0,
-      1
-     ]
-    ],
-    "Galatasaray": [
-     [
-      1,
-      "2026-09-09",
-      "19:00Z",
-      "Sporting CP",
-      0,
-      1,
-      3
-     ]
-    ],
-    "Viking FK": [
-     [
-      1,
-      "2026-09-09",
+      2,
+      "2026-10-14",
       "16:45Z",
-      "VfB Stuttgart",
-      0,
+      "Liverpool",
       1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Sporting",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "S Bratislava",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "17:45Z",
+      "Bodø/Glimt",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Fenerbahce",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Real Madrid",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Porto",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Club Brugge": [
+     [
+      1,
+      "2026-09-08",
+      "16:45Z",
+      "Aston Villa",
+      1,
+      2,
       3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Inter",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Lens",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "PSV",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Liverpool",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Napoli",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Stuttgart",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Bodø/Glimt",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Aston Villa": [
+     [
+      1,
+      "2026-09-08",
+      "16:45Z",
+      "Club Brugge",
+      0,
+      3,
+      2
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Fenerbahce",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Viking FK",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Barcelona",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "17:45Z",
+      "Galatasaray",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "PSG",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Dortmund",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Slavia Prague",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Dortmund": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Villarreal",
+      1,
+      3,
+      2
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Bodø/Glimt",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "16:45Z",
+      "Sabah",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Betis",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Arsenal",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Inter",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Aston Villa",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "AEK Athens",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Villarreal": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Dortmund",
+      0,
+      2,
+      3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Napoli",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Liverpool",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "PSG",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "17:45Z",
+      "Slavia Prague",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "17:45Z",
+      "Sabah",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "17:45Z",
+      "Fenerbahce",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Man United",
+      1,
+      null,
+      null
      ]
     ],
     "Porto": [
@@ -15342,17 +15456,513 @@
       1,
       0,
       2
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Betis",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "PSV",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Napoli",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Feyenoord",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Liverpool",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Slavia Prague",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "LASK Linz",
+      0,
+      null,
+      null
      ]
     ],
-    "RB Leipzig": [
+    "Man City": [
      [
       1,
-      "2026-09-10",
+      "2026-09-08",
       "19:00Z",
+      "Porto",
+      0,
+      2,
+      0
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "PSG",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "AEK Athens",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "RB Leipzig",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Napoli",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Barcelona",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Lens",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Sporting",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Lille": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Betis",
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Arsenal",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "16:45Z",
+      "Galatasaray",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Bodø/Glimt",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Bayern",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Stuttgart",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "S Bratislava",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Roma",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Betis": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Lille",
+      0,
+      3,
+      2
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Porto",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Feyenoord",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Dortmund",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "S Bratislava",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "17:45Z",
       "Como",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Arsenal",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Bayern",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Real Madrid": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Inter",
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Roma",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "RB Leipzig",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "17:45Z",
+      "AEK Athens",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "PSV",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Arsenal",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "LASK Linz",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Shakhtar",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Inter": [
+     [
+      1,
+      "2026-09-08",
+      "19:00Z",
+      "Real Madrid",
       0,
       1,
-      4
+      2
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Club Brugge",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Shakhtar",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Feyenoord",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Stuttgart",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Dortmund",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Liverpool",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "S Bratislava",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Barcelona": [
+     [
+      1,
+      "2026-09-09",
+      "16:45Z",
+      "Feyenoord",
+      1,
+      5,
+      1
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Galatasaray",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "PSG",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Aston Villa",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "17:45Z",
+      "Sabah",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Man City",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Sporting",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Como",
+      1,
+      null,
+      null
      ]
     ],
     "Feyenoord": [
@@ -15364,17 +15974,587 @@
       0,
       1,
       5
+     ],
+     [
+      2,
+      "2026-10-14",
+      "16:45Z",
+      "Como",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Betis",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Inter",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Porto",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "17:45Z",
+      "Viking FK",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "17:45Z",
+      "Galatasaray",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "RB Leipzig",
+      1,
+      null,
+      null
      ]
     ],
-    "Sabah": [
+    "Stuttgart": [
      [
       1,
-      "2026-09-10",
+      "2026-09-09",
+      "16:45Z",
+      "Viking FK",
+      1,
+      3,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "S Bratislava",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Atlético",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "17:45Z",
+      "Galatasaray",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Inter",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Lille",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Club Brugge",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "PSV",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Viking FK": [
+     [
+      1,
+      "2026-09-09",
+      "16:45Z",
+      "Stuttgart",
+      0,
+      1,
+      3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Bayern",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Aston Villa",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Sabah",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Atlético",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "17:45Z",
+      "Feyenoord",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "PSV",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Napoli",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Liverpool": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Atlético",
+      1,
+      2,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "16:45Z",
+      "LASK Linz",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Villarreal",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "17:45Z",
+      "Fenerbahce",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Club Brugge",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Porto",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Inter",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Lens",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Atlético": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Liverpool",
+      0,
+      1,
+      2
+     ],
+     [
+      2,
+      "2026-10-13",
       "19:00Z",
       "Man United",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Stuttgart",
       0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Bayern",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Viking FK",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "PSV",
       0,
-      4
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "17:45Z",
+      "Bodø/Glimt",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Fenerbahce",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Napoli": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Arsenal",
+      1,
+      0,
+      1
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Villarreal",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Bodø/Glimt",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Porto",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Man City",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Club Brugge",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "17:45Z",
+      "Sabah",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Viking FK",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Arsenal": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Napoli",
+      0,
+      1,
+      0
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Lille",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Bayern",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Slavia Prague",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Dortmund",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Real Madrid",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Betis",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Sabah",
+      1,
+      null,
+      null
+     ]
+    ],
+    "PSG": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "S Bratislava",
+      1,
+      6,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Man City",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Barcelona",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Villarreal",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Roma",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Aston Villa",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Como",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Galatasaray",
+      1,
+      null,
+      null
      ]
     ],
     "S Bratislava": [
@@ -15386,6 +16566,587 @@
       0,
       1,
       6
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Stuttgart",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Roma",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "LASK Linz",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Betis",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "17:45Z",
+      "Shakhtar",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Lille",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Inter",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Sporting": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Galatasaray",
+      1,
+      3,
+      1
+     ],
+     [
+      2,
+      "2026-10-13",
+      "16:45Z",
+      "Lens",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "LASK Linz",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "17:45Z",
+      "Shakhtar",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Man United",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Roma",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Barcelona",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Man City",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Galatasaray": [
+     [
+      1,
+      "2026-09-09",
+      "19:00Z",
+      "Sporting",
+      0,
+      1,
+      3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Barcelona",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "16:45Z",
+      "Lille",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "17:45Z",
+      "Stuttgart",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "17:45Z",
+      "Aston Villa",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "AEK Athens",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "17:45Z",
+      "Feyenoord",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "PSG",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Fenerbahce": [
+     [
+      1,
+      "2026-09-10",
+      "16:45Z",
+      "Roma",
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Aston Villa",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "16:45Z",
+      "Slavia Prague",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "17:45Z",
+      "Liverpool",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Shakhtar",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "LASK Linz",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "17:45Z",
+      "Villarreal",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Atlético",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Roma": [
+     [
+      1,
+      "2026-09-10",
+      "16:45Z",
+      "Fenerbahce",
+      0,
+      1,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Real Madrid",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "S Bratislava",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Man United",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "PSG",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Sporting",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "AEK Athens",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Lille",
+      1,
+      null,
+      null
+     ]
+    ],
+    "PSV": [
+     [
+      1,
+      "2026-09-10",
+      "16:45Z",
+      "Shakhtar",
+      1,
+      1,
+      1
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "RB Leipzig",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Porto",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Club Brugge",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Real Madrid",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Atlético",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Viking FK",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Stuttgart",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Shakhtar": [
+     [
+      1,
+      "2026-09-10",
+      "16:45Z",
+      "PSV",
+      0,
+      1,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "AEK Athens",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Inter",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "17:45Z",
+      "Sporting",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Fenerbahce",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "17:45Z",
+      "S Bratislava",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "RB Leipzig",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Real Madrid",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Bayern": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Bodø/Glimt",
+      1,
+      5,
+      0
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Viking FK",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Arsenal",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Atlético",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Lille",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Slavia Prague",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Man United",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Betis",
+      1,
+      null,
+      null
      ]
     ],
     "Bodø/Glimt": [
@@ -15393,10 +17154,517 @@
       1,
       "2026-09-10",
       "19:00Z",
-      "Bayern Munich",
+      "Bayern",
       0,
       0,
       5
+     ],
+     [
+      2,
+      "2026-10-14",
+      "19:00Z",
+      "Dortmund",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "19:00Z",
+      "Napoli",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Lille",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "17:45Z",
+      "LASK Linz",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Lens",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "17:45Z",
+      "Atlético",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Club Brugge",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Como": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "RB Leipzig",
+      1,
+      4,
+      1
+     ],
+     [
+      2,
+      "2026-10-14",
+      "16:45Z",
+      "Feyenoord",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "16:45Z",
+      "Man United",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Lens",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "AEK Athens",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "17:45Z",
+      "Betis",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "PSG",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Barcelona",
+      0,
+      null,
+      null
+     ]
+    ],
+    "RB Leipzig": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Como",
+      0,
+      1,
+      4
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "PSV",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Real Madrid",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Man City",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "Lens",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Man United",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Shakhtar",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Feyenoord",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Man United": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Sabah",
+      1,
+      4,
+      0
+     ],
+     [
+      2,
+      "2026-10-13",
+      "19:00Z",
+      "Atlético",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "16:45Z",
+      "Como",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-03",
+      "20:00Z",
+      "Roma",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "20:00Z",
+      "Sporting",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "RB Leipzig",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Bayern",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Villarreal",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Sabah": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Man United",
+      0,
+      0,
+      4
+     ],
+     [
+      2,
+      "2026-10-13",
+      "16:45Z",
+      "Slavia Prague",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "16:45Z",
+      "Dortmund",
+      1,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Viking FK",
+      0,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "17:45Z",
+      "Barcelona",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "17:45Z",
+      "Villarreal",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "17:45Z",
+      "Napoli",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Arsenal",
+      0,
+      null,
+      null
+     ]
+    ],
+    "Slavia Prague": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Lens",
+      1,
+      2,
+      3
+     ],
+     [
+      2,
+      "2026-10-13",
+      "16:45Z",
+      "Sabah",
+      0,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-20",
+      "16:45Z",
+      "Fenerbahce",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Arsenal",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-25",
+      "17:45Z",
+      "Villarreal",
+      1,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-08",
+      "20:00Z",
+      "Bayern",
+      0,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-19",
+      "20:00Z",
+      "Porto",
+      0,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Aston Villa",
+      1,
+      null,
+      null
+     ]
+    ],
+    "Lens": [
+     [
+      1,
+      "2026-09-10",
+      "19:00Z",
+      "Slavia Prague",
+      0,
+      3,
+      2
+     ],
+     [
+      2,
+      "2026-10-13",
+      "16:45Z",
+      "Sporting",
+      1,
+      null,
+      null
+     ],
+     [
+      3,
+      "2026-10-21",
+      "19:00Z",
+      "Club Brugge",
+      0,
+      null,
+      null
+     ],
+     [
+      4,
+      "2026-11-04",
+      "20:00Z",
+      "Como",
+      1,
+      null,
+      null
+     ],
+     [
+      5,
+      "2026-11-24",
+      "20:00Z",
+      "RB Leipzig",
+      0,
+      null,
+      null
+     ],
+     [
+      6,
+      "2026-12-09",
+      "20:00Z",
+      "Bodø/Glimt",
+      1,
+      null,
+      null
+     ],
+     [
+      7,
+      "2027-01-20",
+      "20:00Z",
+      "Man City",
+      1,
+      null,
+      null
+     ],
+     [
+      8,
+      "2027-01-27",
+      "20:00Z",
+      "Liverpool",
+      0,
+      null,
+      null
      ]
     ]
    }
