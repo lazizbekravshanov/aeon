@@ -308,6 +308,28 @@ function alignFixtures(fixtures, rows) {
   return out;
 }
 
+// openfootball publishes real matchday numbers but enters scores about a week
+// late, so fill any gaps from ESPN, which settles results within the hour.
+function mergeResults(base, fresh) {
+  const sameWeek = (a, b) => {
+    const x = Date.parse(a + "T12:00:00Z"), y = Date.parse(b + "T12:00:00Z");
+    return Number.isFinite(x) && Number.isFinite(y) && Math.abs(x - y) <= 3 * 864e5;
+  };
+  let filled = 0;
+  for (const [club, list] of Object.entries(base)) {
+    const other = fresh[club];
+    if (!other) continue;
+    for (const t of list) {
+      if (t[5] != null) continue;
+      const hit = other.find(
+        (o) => o[3] === t[3] && o[4] === t[4] && o[5] != null && t[1] && o[1] && sameWeek(o[1], t[1])
+      );
+      if (hit) { t[5] = hit[5]; t[6] = hit[6]; filled++; }
+    }
+  }
+  return filled;
+}
+
 async function build() {
   const comps = {};
   for (const [key, cfg] of Object.entries(COMPS)) {
@@ -347,9 +369,14 @@ async function build() {
     }
 
     if (result && result.rows.some((r) => (r.p ?? 0) > 0)) {
-      let raw = ofData ? fixturesFromOpenfootball(ofData) : {};
-      if (!Object.keys(raw).length) raw = await fixturesFromESPN(cfg.espn, startYear);
-      const fixtures = alignFixtures(raw, result.rows);
+      const openfootball = ofData ? alignFixtures(fixturesFromOpenfootball(ofData), result.rows) : {};
+      const espn = alignFixtures(await fixturesFromESPN(cfg.espn, startYear), result.rows);
+      let fixtures = espn;
+      if (Object.keys(openfootball).length) {
+        const filled = mergeResults(openfootball, espn);
+        console.error(`[${key}] ${filled} result(s) filled in from ESPN`);
+        fixtures = openfootball;
+      }
       const noFixtures = result.rows.filter((r) => !fixtures[r.short]).map((r) => r.short);
       if (noFixtures.length) console.error(`[${key}] no fixtures for: ${noFixtures.join(", ")}`);
       comps[key] = {
