@@ -692,6 +692,13 @@ function outcomeOf(f){
   if (!f.done) return "";
   return f.gf > f.ga ? "W" : f.gf < f.ga ? "L" : "D";
 }
+/* Result feeds can lag kick-off, so a past match without a score is pending
+   rather than upcoming — it should not be billed as the next fixture. */
+function isPending(f){
+  if (f.done) return false;
+  const k = kickoff(f);
+  return !!k && k.dt.getTime() < Date.now();
+}
 function monthOf(f){
   const k = kickoff(f);
   return k ? k.dt.toLocaleDateString("en-GB", {month:"long", year:"numeric"}) : "Date to be confirmed";
@@ -701,7 +708,8 @@ function fxRow(f, isNext){
   const o = outcomeOf(f);
   const res = f.done
     ? `<span class="res ${o}">${f.gf}–${f.ga}</span>`
-    : `<span class="res kick">${esc(fxTime(f))}</span>`;
+    : `<span class="res kick" ${isPending(f) ? 'title="Result not published yet"' : ""}>${
+        isPending(f) ? "—" : esc(fxTime(f))}</span>`;
   return `<div class="fx ${o} ${isNext ? "next" : ""}" role="row">
     <span class="md">${f.md ? "MD" + f.md : ""}</span>
     <span class="dt">${fxDate(f)}</span>
@@ -789,7 +797,8 @@ async function renderTeam(){
       <span class="chip"><b>${fx.length - played.length}</b> to play</span>
     </div>`;
 
-  const nextIdx = fx.findIndex(f => !f.done);
+  let nextIdx = fx.findIndex(f => !f.done && !isPending(f));
+  if (nextIdx < 0) nextIdx = fx.findIndex(f => !f.done);
   const groups = [];
   fx.forEach((f, i) => {
     const label = monthOf(f);
