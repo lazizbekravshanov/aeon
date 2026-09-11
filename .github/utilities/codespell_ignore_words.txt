@@ -1,5 +1,4 @@
 fpr
-hove
 mape
 recuse
 strat
